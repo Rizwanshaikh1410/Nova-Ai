@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova AI - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+
+
+  <!-- Favicon icons -->
+
+  <!-- ✅ Favicon -->
+<link rel="icon" href="/assets/Fav-Logo.png" type="image/png" />
+<!-- Favicon Icons -->
+<!-- Seo Start  -->
+<meta name="description" content="Nova AI is your one-stop AI tool discovery platform. Explore 1000+ AI tools for content writing, video editing, coding, image generation, chatbots, productivity, and more. Find the best free and paid AI tools easily in one place." />
+
+<meta name="keywords" content="AI tools, artificial intelligence tools, best AI websites, AI tools for content writing, AI video editing, AI image generator, AI chatbot, free AI software, nova ai, novaai14.netlify.app, AI technology 2025, AI productivity, AI business tools, AI coding tools, AI image editing, AI video tools, top AI platforms" />
+
+<meta name="author" content="Rizwan Shaikh" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="English" />
+<meta name="distribution" content="global" />
+<meta name="rating" content="general" />
+<meta name="revisit-after" content="7 days" />
+
+<!-- ✅ Canonical URL -->
+<link rel="canonical" href="https://novaai14.netlify.app/" />
+
+<!-- ✅ Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://novaai14.netlify.app/" />
+<meta property="og:title" content="Nova AI - All Your AI Tools in One Place" />
+<meta property="og:description" content="Discover and explore all AI tools in one platform — from video editing to writing, coding, and image generation. Nova AI helps you find the right tool instantly." />
+<meta property="og:image" content="https://novaai14.netlify.app/assets/preview-image.jpg" />
+<meta property="og:site_name" content="Nova AI" />
+
+<!-- ✅ Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Nova AI - All Your AI Tools in One Place" />
+<meta name="twitter:description" content="Find the best AI tools instantly. Nova AI curates the top platforms for content creation, video editing, coding, and productivity." />
+<meta name="twitter:image" content="https://novaai14.netlify.app/assets/preview-image.jpg" />
+<meta name="twitter:site" content="@novaai" />
+
+<!-- ✅ Structured Data (Schema JSON-LD for Google Rich Results) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Nova AI",
+  "url": "https://novaai14.netlify.app/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://novaai14.netlify.app/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "description": "Nova AI is a curated platform listing the best AI tools for writing, editing, coding, productivity, and more.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nova AI",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://novaai14.netlify.app/assets/logo.png"
+    }
+  }
+}
+</script>
+
+<!-- ✅ Extra SEO Enhancements -->
+<meta name="theme-color" content="#0f172a" />
+<meta name="application-name" content="Nova AI" />
+<meta name="apple-mobile-web-app-title" content="Nova AI" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<!-- Seo End -->
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <div class="container site-container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="/index.html">
+      <img src="/assets/logo.svg" alt="Nova AI Logo" class="logo-rotate">
+      <div>
+        <div style="font-weight:700">Nova AI</div>
+        <small style="color:var(--muted)">Discover AI tools in one place</small>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navCollapse">
+      <form class="d-flex ms-3 my-2 my-lg-0" role="search" onsubmit="return false;">
+        <input id="siteSearch" class="form-control me-2" type="search" placeholder="Search tools, e.g., Kapwing" aria-label="Search">
+        <select id="filterCategory" class="form-select me-2">
+          <option value="">All Categories</option>
+          <option value="Top Video Editing AI">Video Editing</option>
+          <option value="AI Voice (Voice Cloning / Text-to-Speech)">Voice</option>
+          <option value="Image Generator AI">Image</option>
+          <option value="Content Writing AI">Writing</option>
+          <option value="Website Builder AI">Website Builder</option>
+          <option value="Top AI PDF Editing Tools">PDF Tools</option>
+          <option value="Main / Top Trending AI (For All Features)">Top AI</option>
+        </select>
+        <button class="btn visit-btn" id="searchBtn" type="button">Search</button>
+      </form>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/support.html">Support</a></li>
+        <li class="nav-item"><a class="nav-link theme-toggle" id="themeToggle" href="javascript:void(0)">☀️</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<header class="hero">
+  <div class="site-container">
+    <h1 style="font-weight:800">Nova AI — All your AI tools, one search</h1>
+    <p class="ai-desc">Stop hopping between websites. Explore curated pages for every AI tool, detailed features, and quick links.</p>
+    <div style="margin-top:18px;">
+      <a class="visit-btn" href="#tools">Explore Tools</a>
+    </div>
+  </div>
+</header>
+
+<section id="tools" class="site-container">
+  <div class="row g-4">
+<div class="col-12"><h4 style="margin-top:18px">Top Video Editing AI</h4></div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Kapwing</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/kapwing.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="https://www.kapwing.com/">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Flixier</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/flixier.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Vidnoz</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/vidnoz.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">InVideo</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/invideo.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Pictory</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/pictory.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Pixverse</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/pixverse.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Simplified</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/simplified.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Pixaia</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top Video Editing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/pixaia.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-12"><h4 style="margin-top:18px">AI Voice (Voice Cloning / Text-to-Speech)</h4></div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Veed AI (Voice Cloning)</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/veed-ai-voice-cloning.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Speechify</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/speechify.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Vidnoz AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/vidnoz-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Wavel AI (Text-to-Speech)</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/wavel-ai-text-to-speech.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Voice AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/voice-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Natural Reader</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/natural-reader.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-12"><h4 style="margin-top:18px">Image Generator AI</h4></div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">ToToR AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Image Generator AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/totor-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Leonardo AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Image Generator AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/leonardo-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Ideogram</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Image Generator AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/ideogram.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Copy Rocket</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Image Generator AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/copy-rocket.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Freepik AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Image Generator AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/freepik-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Get IMG AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Image Generator AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/get-img-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Banana AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Image Generator AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/banana-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-12"><h4 style="margin-top:18px">Content Writing AI</h4></div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">HubSpot AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Content Writing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/hubspot-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">QuillBot</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Content Writing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/quillbot.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Textera AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Content Writing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/textera-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Typefully AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Content Writing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/typefully-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">WriteCream</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Content Writing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/writecream.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Jasper SEO</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Content Writing AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/jasper-seo.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-12"><h4 style="margin-top:18px">Website Builder AI</h4></div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Webzy AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/webzy-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">FoundaWeb</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/foundaweb.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Varnz AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/varnz-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">HubSpot</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/hubspot.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">WriteCream AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/writecream-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">GiviAI Free AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/giviai-free-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Venturz AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/venturz-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">8b AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Website Builder AI</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/8b-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-12"><h4 style="margin-top:18px">Top AI PDF Editing Tools</h4></div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Adobe Acrobat AI Assistant</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/adobe-acrobat-ai-assistant.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">SmallPDF</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/smallpdf.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">PDF.ai</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/pdfai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">ChatPDF</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/chatpdf.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">UPDF.ai</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/updfai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">LightPDF</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/lightpdf.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Sider AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/sider-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Humata AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/humata-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">DocuAsk AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/docuask-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Foxit PDF</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/foxit-pdf.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Sejda.com</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Top AI PDF Editing Tools</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/sejdacom.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-12"><h4 style="margin-top:18px">Main / Top Trending AI (For All Features)</h4></div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">ChatGPT</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Main / Top Trending AI (For All Features)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/chatgpt.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Gemini</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Main / Top Trending AI (For All Features)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/gemini.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Claude AI</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Main / Top Trending AI (For All Features)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/claude-ai.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">AI Studio</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Main / Top Trending AI (For All Features)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/ai-studio.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 col-sm-6">
+  <div class="card-custom">
+    <h6 style="margin-bottom:6px">Banana</h6>
+    <p class="ai-desc" style="margin-bottom:10px">Category: Main / Top Trending AI (For All Features)</p>
+    <div class="d-flex gap-2">
+      <a class="btn btn-sm visit-btn" href="pages/banana.html">View Details</a>
+      <a class="btn btn-sm visit-btn" href="#">Official</a>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="site-container" style="margin-top:36px">
+  <div class="card-custom">
+    <h4>Why Nova AI?</h4>
+    <p class="ai-desc">Nova AI is a directory and research hub to help creators compare and visit AI tool websites from one place.</p>
+    <ul>
+      <li>Curated tool pages — descriptions, features, use-cases</li>
+      <li>Quick external links to official sites (you can replace them with the exact URLs)</li>
+      <li>Responsive layout, light/dark mode, and easy navigation</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="site-container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Nova AI</h5>
+        <p>One place to discover and compare AI tools — curated pages, quick links, and deep details.</p>
+      </div>
+      <div class="col-md-4">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/terms.html">Terms & Conditions</a></li>
+          <li><a href="/disclaimer.html">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6>Contact</h6>
+        <p>Email: Rizwanshaikh1410@gmail.com</p>
+        <p>Instagram: @officialrizwanshaikh59</p>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center" style="font-size:13px;color:var(--muted)">© 2025 Nova AI · Made with this website by Rizwan Shaikh · All rights reserved</div>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/site-search.js"></script>
+</body>
+</html>
