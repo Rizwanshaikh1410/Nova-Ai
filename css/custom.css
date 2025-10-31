@@ -343,7 +343,7 @@ h4, h2 {
 .grid-full{grid-column:1 / -1}
 .grid-full h2{
   margin: 6px 0 14px;
-  font-size:1.1rem;
+  font-size: 2.0rem;
   color:var(--accent);
   padding-left:8px;
   border-left:4px solid rgba(0,200,255,0.12);
