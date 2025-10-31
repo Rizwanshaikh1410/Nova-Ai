@@ -396,16 +396,19 @@ h4, h2 {
 .card h3{
   margin: 0 0 8px;
   font-size:1.05rem;
+  text-align: center;
   color: #bffcff;
   text-shadow: 0 4px 18px rgba(0,200,255,0.06);
 }
 .meta{
   margin:0 0 10px;
+  text-align: center;
   color:var(--muted);
   font-size:0.85rem;
 }
 .desc{
   color: #cbd7df;
+  text-align: center;
   font-size:0.92rem;
   line-height:1.4;
   margin:6px 0 18px;
@@ -414,6 +417,7 @@ h4, h2 {
 /* Actions (buttons) */
 .card-actions{
   display:flex;
+  justify-content:center;
   gap:10px;
   margin-top:auto;
 }
@@ -435,12 +439,22 @@ h4, h2 {
 .btn-sm{padding:7px 10px; font-size:0.88rem}
 
 /* Visit button (neon cyan) */
-.btn-visit{
+./* Visit button (neon cyan) */
+.btn-visit {
   background: linear-gradient(180deg, var(--accent), var(--accent-2));
   color: #001717;
   box-shadow: 0 8px 30px rgba(0,200,255,0.14);
   border: none;
-  padding:8px 14px;
+
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  width: 120px;          /* ✅ Fixed length */
+  text-align: center;
+  display: inline-block; /* ✅ allow width to take effect */
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .btn-visit:hover{
   transform:translateY(-4px) scale(1.02);
