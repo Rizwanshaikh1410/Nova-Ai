@@ -21,7 +21,7 @@ document.getElementById("cf-send").addEventListener("click", function() {
 
   // --- STEP 1: Send main email to you ---
   emailjs
-    .send("service_qxt18rn", "template_o6q3tnf", {
+    .send("service_qxt18rn", "template_v753izb", {
       from_name: name,
       from_email: email,
       message: message,
