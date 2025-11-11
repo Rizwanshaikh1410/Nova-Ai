@@ -1,6 +1,7 @@
 // contact.js
 (function() {
-  emailjs.init("MfAJXgQ9PaHH-4Vag"); // Replace with your EmailJS public key
+  // Initialize EmailJS with your Public Key
+  emailjs.init("MfAJXgQ9PaHH-4Vag");
 })();
 
 document.getElementById("cf-send").addEventListener("click", function() {
@@ -18,18 +19,22 @@ document.getElementById("cf-send").addEventListener("click", function() {
   note.style.color = "gray";
   note.textContent = "Sending message...";
 
-  // Send message to your Gmail
+  // --- STEP 1: Send main email to you ---
   emailjs
     .send("service_qxt18rn", "template_o6q3tnf", {
       from_name: name,
       from_email: email,
       message: message,
+      to_email: "novaai1410@gmail.com", // your receiving email
     })
     .then(() => {
-      // Auto response to client
+      // --- STEP 2: Auto-reply to sender ---
       return emailjs.send("service_qxt18rn", "template_mkpzd4e", {
         to_email: email,
+        user_name: name,
         reply_to: "novaai1410@gmail.com",
+        auto_reply_message:
+          "Aapke question ka jawaab aapko jald milega ya phir aapka solution 24–72 hours mein ho jayega.",
       });
     })
     .then(() => {
@@ -40,6 +45,6 @@ document.getElementById("cf-send").addEventListener("click", function() {
     .catch((err) => {
       note.style.color = "red";
       note.textContent = "Error sending message. Please try again later.";
-      console.error(err);
+      console.error("EmailJS Error:", err);
     });
 });
