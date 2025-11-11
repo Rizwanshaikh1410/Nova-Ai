@@ -27,7 +27,7 @@ document.getElementById("cf-send").addEventListener("click", function() {
     })
     .then(() => {
       // Auto response to client
-      return emailjs.send("service_qxt18rn", "template_mkpzd4e ", {
+      return emailjs.send("service_qxt18rn", "template_mkpzd4e", {
         to_email: email,
         reply_to: "novaai1410@gmail.com",
       });
