@@ -148,12 +148,13 @@ h4, h2 {
   margin: auto;
 }
 
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
-}
+} */
+
 
 /* ===== AI Card Design ===== */
 .card-custom {
