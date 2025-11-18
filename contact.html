@@ -133,45 +133,76 @@
 </nav>
 
 
-<div class="site-container center-content" style="padding-top:24px">
-  <div class="card-custom">
-    <h1>Contact Us</h1>
-    <p class="ai-desc">Questions, corrections, or suggestions? We'd love to hear from you.</p>
-    <div class="row">
-      <div class="col-md-7">
+<!-- Contact Page -->
+<div class="site-container center-content" style="padding-top:40px; max-width:900px; margin:auto;">
+  <div class="card-custom" style="padding:30px; box-shadow:0 8px 20px rgba(0,0,0,0.1); border-radius:12px;">
+    
+    <h1 style="text-align:center; color:#1a1a1a;">Contact Us</h1>
+    <p class="ai-desc" style="text-align:center; font-size:16px; color:var(--muted); margin-bottom:40px;">
+      Have questions, suggestions, or found an error? Reach out and let's make things better together. 
+      We're here to help and value your feedback.
+    </p>
+    
+    <div class="row" style="display:flex; flex-wrap:wrap; gap:30px;">
+      
+      <!-- Contact Form -->
+      <div class="col-md-7" style="flex:1; min-width:280px;">
+        <form id="contactForm" style="display:flex; flex-direction:column; gap:20px;">
+          
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input id="cf-name" class="form-control" placeholder="Your full name" required style="padding:12px; border-radius:6px; border:1px solid #ccc;" />
+          </div>
+          
+          <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input id="cf-email" type="email" class="form-control" placeholder="you@example.com" required style="padding:12px; border-radius:6px; border:1px solid #ccc;" />
+          </div>
+          
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea id="cf-message" class="form-control" rows="6" placeholder="Write your message here..." required style="padding:12px; border-radius:6px; border:1px solid #ccc;"></textarea>
+          </div>
+          
+          <button class="btn visit-btn" id="cf-send" type="button" style="padding:12px 20px; border:none; border-radius:8px; background:linear-gradient(90deg,#ff6ec4,#7873f5); color:#fff; font-weight:600; cursor:pointer;">
+            Send Message
+          </button>
+          
+          <div id="cf-note" style="margin-top:12px; color:var(--muted); font-size:14px;"></div>
+        </form>
 
-        <form id="contactForm">
-  <div class="mb-3">
-    <label class="form-label">Name</label>
-    <input id="cf-name" class="form-control" placeholder="Your name" />
-  </div>
-  <div class="mb-3">
-    <label class="form-label">Email</label>
-    <input id="cf-email" class="form-control" placeholder="you@example.com" />
-  </div>
-  <div class="mb-3">
-    <label class="form-label">Message</label>
-    <textarea id="cf-message" class="form-control" rows="6"></textarea>
-  </div>
-  <button class="btn visit-btn" id="cf-send" type="button">Send Message</button>
-  <div id="cf-note" style="margin-top:12px;color:var(--muted);font-size:14px"></div>
-</form>
-
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script src="js/contact.js"></script>
-
+        <!-- EmailJS Script -->
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script src="js/contact.js"></script>
       </div>
-      <div class="col-md-5">
-        <h5>Contact Details</h5>
-        <p>Email: Rizwanshaikh1410@gmail.com</p>
-        <p>Instagram: @officialrizwanshaikh59</p>
-        <p><strong>Creator:</strong> Rizwan Shaikh</p>
-        <h6>Office</h6>
+      
+      <!-- Contact Details -->
+      <div class="col-md-5" style="flex:1; min-width:250px;">
+        <h5 style="color:#1a1a1a;">Get in Touch</h5>
+        <p style="margin:6px 0;"><strong>Email:</strong> <a href="mailto:Rizwanshaikh1410@gmail.com" style="color:#555; text-decoration:none;">Rizwanshaikh1410@gmail.com</a></p>
+        <p style="margin:6px 0;"><strong>Instagram:</strong> <a href="https://www.instagram.com/officialrizwanshaikh59" target="_blank" style="color:#555; text-decoration:none;">@officialrizwanshaikh59</a></p>
+        <p style="margin:6px 0;"><strong>Creator:</strong> Rizwan Shaikh</p>
+        
+        <h6 style="margin-top:20px;">Office Location</h6>
         <p>Remote / India</p>
+
+        <h6 style="margin-top:20px;">Why Contact Us?</h6>
+        <p style="font-size:14px; color:#555;">
+          - Report any bugs or errors you encounter.<br>
+          - Suggest new AI tools or features.<br>
+          - Collaborate on AI-related projects.<br>
+          - Ask questions about using Nova AI efficiently.<br>
+        </p>
+
+        <h6 style="margin-top:20px;">Expected Response Time</h6>
+        <p style="font-size:14px; color:#555;">
+          We typically respond within 24–48 hours on weekdays. Your messages are important to us!
+        </p>
       </div>
     </div>
   </div>
 </div>
+
 <footer class="footer">
   <div class="site-container">
     <div class="row">
