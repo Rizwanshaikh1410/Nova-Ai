@@ -1,44 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Homepage -->
-  <url>
-    <loc>https://novaai14.netlify.app/</loc>
-    <lastmod>2025-10-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <!-- About Page -->
-  <url>
-    <loc>https://novaai14.netlify.app/about</loc>
-    <lastmod>2025-10-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
 
-  <!-- AI Tools Page -->
-  <url>
-    <loc>https://novaai14.netlify.app/ai-tools</loc>
-    <lastmod>2025-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<url>
+  <loc>https://novaai14.netlify.app/</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/novaadvance</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/about</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/contact</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/support</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/explore</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/update</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/kapwing</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/flixier</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/vidnoz</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/invideo</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/pictory</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/pixverse</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/simplified</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/pixaia</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/veed-ai-voice-cloning</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/speechify</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/vidnoz-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/wavel-ai-text-to-speech</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/voice-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/natural-reader</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/totor-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/leonardo-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/ideogram</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/copy-rocket</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/freepik-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/get-img-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/banana-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/hubspot-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/quillbot</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/textera-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/typefully-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/writecream</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/jasper-seo</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/webzy-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/foundaweb</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/varnz-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/hubspot</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/writecream-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/giviai-free-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/venturz-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/8b-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/adobe-acrobat-ai-assistant</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/smallpdf</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/pdfai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/chatpdf</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/updfai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/lightpdf</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/sider-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/humata-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/docuask-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/foxit-pdf</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/sejdacom</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/chatgpt</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/gemini</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/claude-ai</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/ai-studio</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/pages/banana</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/disclaimer</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://novaai14.netlify.app/terms</loc>
+  <lastmod>2025-11-19T13:53:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
-  <!-- Contact Page -->
-  <url>
-    <loc>https://novaai14.netlify.app/contact</loc>
-    <lastmod>2025-10-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Blog or Updates Section -->
-  <url>
-    <loc>https://novaai14.netlify.app/blog</loc>
-    <lastmod>2025-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
 
 </urlset>
