@@ -2464,26 +2464,123 @@ function renderCategoryOptions(){
 
 // Renders paginated list (only current page items)
 function renderPaginated(){
-  const grid = document.getElementById('grid'); grid.innerHTML='';
-  const total = filtered.length; document.getElementById('totalCount').textContent = DB.length; document.getElementById('shownCount').textContent = total;
+  const grid = document.getElementById('grid'); 
+  grid.innerHTML='';
+
+  const total = filtered.length; 
+  document.getElementById('totalCount').textContent = DB.length; 
+  document.getElementById('shownCount').textContent = total;
+
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-  if(currentPage>totalPages) currentPage = totalPages;
-  document.getElementById('currentPage').textContent = currentPage; document.getElementById('totalPages').textContent = totalPages;
-  const start = (currentPage-1)*PAGE_SIZE;
-  const pageItems = filtered.slice(start, start+PAGE_SIZE);
+  if(currentPage > totalPages) currentPage = totalPages;
+
+  document.getElementById('currentPage').textContent = currentPage; 
+  document.getElementById('totalPages').textContent = totalPages;
+
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const pageItems = filtered.slice(start, start + PAGE_SIZE);
 
   const fragment = document.createDocumentFragment();
   pageItems.forEach((tool, idx)=>{
     const globalIndex = start + idx + 1;
-    const el = document.createElement('div'); el.className='tool-card card';
-    el.innerHTML = `\n      <div class="card-top">\n        <div class="title">\n          <div style="display:flex;align-items:center;gap:8px;justify-content:space-between">\n            <h3>${escapeHtml(tool.name)}</h3>\n            <div class="badge">#${globalIndex}</div>\n          </div>\n          <div class="meta"><span>Rating: ${tool.rating!=null?tool.rating:'—'}</span> • <span>${tool.visits?numberWithCommas(tool.visits)+' visits':'—'}</span></div>\n        </div>\n      </div>\n      <div style="min-height:48px"><div class="tool-desc">${escapeHtml(tool.description||'')}</div></div>\n      <div class="tags">${(tool.tags||[]).slice(0,4).map(t=>`<span class='tag'>${escapeHtml(t)}</span>`).join('')}</div>\n      <div class="visit"><div class="small">${escapeHtml(tool.pricing||'')}</div><a class="primary" href="${toolLink(tool)}" target="_blank" rel="noopener noreferrer">Visit ↗</a></div>\n    `;
+    const el = document.createElement('div'); 
+    el.className='tool-card card';
+    
+    el.innerHTML = `
+      <div class="card-top">
+        <div class="title">
+          <div style="display:flex;align-items:center;gap:8px;justify-content:space-between">
+            <h3>${escapeHtml(tool.name)}</h3>
+            <div class="badge">#${globalIndex}</div>
+          </div>
+          <div class="meta">
+            <span>Rating: ${tool.rating!=null?tool.rating:'—'}</span> • 
+            <span>${tool.visits?numberWithCommas(tool.visits)+' visits':'—'}</span>
+          </div>
+        </div>
+      </div>
+      <div style="min-height:48px">
+        <div class="tool-desc">${escapeHtml(tool.description||'')}</div>
+      </div>
+
+      <div class="tags">
+        ${(tool.tags||[]).slice(0,4).map(t=>`<span class='tag'>${escapeHtml(t)}</span>`).join('')}
+      </div>
+
+      <div class="visit">
+        <div class="small">${escapeHtml(tool.pricing||'')}</div>
+        <a class="primary" href="${toolLink(tool)}" target="_blank" rel="noopener noreferrer">Visit ↗</a>
+      </div>
+    `;
+    
     fragment.appendChild(el);
   });
+
   grid.appendChild(fragment);
 
-  document.getElementById('prevPage').disabled = currentPage<=1;
-  document.getElementById('nextPage').disabled = currentPage>=totalPages;
+  // Enable / Disable navigation
+  document.getElementById('prevPage').disabled = currentPage <= 1;
+  document.getElementById('nextPage').disabled = currentPage >= totalPages;
+
+  // -----------------------------
+  // NEW: Page Number Buttons
+  // -----------------------------
+  // -----------------------------
+// NEW: Window Pagination (5 buttons + Prev/Next Window)
+// -----------------------------
+const pageNumberContainer = document.getElementById("pageNumberList");
+if (pageNumberContainer) {
+    pageNumberContainer.innerHTML = "";
+
+    const windowSize = 5;
+
+    // Calculate window start & end
+    let windowIndex = Math.floor((currentPage - 1) / windowSize);
+    let startPage = windowIndex * windowSize + 1;
+    let endPage = Math.min(startPage + windowSize - 1, totalPages);
+
+    // -------- PREV WINDOW BUTTON --------
+    if (startPage > 1) {
+        const prevWindowBtn = document.createElement("button");
+        prevWindowBtn.textContent = "«";
+        prevWindowBtn.className = "page-btn";
+        prevWindowBtn.onclick = () => {
+            currentPage = startPage - 1;
+            renderPaginated();
+        };
+        pageNumberContainer.appendChild(prevWindowBtn);
+    }
+
+    // -------- PAGE NUMBER BUTTONS --------
+    for (let i = startPage; i <= endPage; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i;
+        btn.className = "page-btn";
+
+        if (i === currentPage) btn.classList.add("active");
+
+        btn.onclick = () => {
+            currentPage = i;
+            renderPaginated();
+        };
+
+        pageNumberContainer.appendChild(btn);
+    }
+
+    // -------- NEXT WINDOW BUTTON --------
+    if (endPage < totalPages) {
+        const nextWindowBtn = document.createElement("button");
+        nextWindowBtn.textContent = "»";
+        nextWindowBtn.className = "page-btn";
+        nextWindowBtn.onclick = () => {
+            currentPage = endPage + 1;
+            renderPaginated();
+        };
+        pageNumberContainer.appendChild(nextWindowBtn);
+    }
 }
+}
+
 
 // Grouped view
 function renderGrouped(){
