@@ -5,7 +5,7 @@
 -------------------------------------------------- */
 
 :root {
-  --bg: #061428;
+  --bg: #071126;
   --card: #0d1627;
   --text: #e6eef6;
   --muted: #9ab0d9;
@@ -21,7 +21,7 @@ html, body {
   padding: 0;
   min-height: 100%;
   width: 100%;
-  background: linear-gradient(180deg, #061428 0%, #07152d 100%) fixed !important;
+  background: #071126;
   color: var(--text);
   font-family: Inter, Segoe UI, Roboto, system-ui, Arial;
   -webkit-font-smoothing: antialiased;
@@ -147,23 +147,60 @@ a.visit-link {
   cursor: pointer !important;
 }
 
-/* button */
+/* Primary Button – Full Hover + Animation */
 button.primary {
   background: linear-gradient(90deg, var(--accent), var(--primary));
   color: #031c25;
-  padding: 8px 10px;
-  border-radius: 8px;
+  padding: 10px 14px;
+  border-radius: 10px;
   font-weight: 600;
   border: none;
   cursor: pointer;
-  transition: 0.15s ease;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
 }
 
+/* Scale + Glow on Hover */
 button.primary:hover {
-  filter: brightness(1.05);
+  transform: scale(1.06);
+  filter: brightness(1.12);
+  box-shadow: 0 6px 18px rgba(0, 200, 255, 0.35);
 }
 
-button.primary:active { transform: translateY(1px); }
+/* Click (Active) Effect */
+button.primary:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Shine Animation */
+button.primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg, 
+    transparent, 
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  transform: skewX(-20deg);
+}
+
+/* Shine moves on hover */
+button.primary:hover::before {
+  animation: shineMove 0.8s ease;
+}
+
+@keyframes shineMove {
+  0% { left: -100%; }
+  100% { left: 150%; }
+}
+
 
 /* pagination */
 .pagination {

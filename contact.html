@@ -190,10 +190,34 @@
                 style="padding:12px; border-radius:6px; border:1px solid #ccc;"></textarea>
             </div>
 
-            <button class="btn visit-btn" id="cf-send" type="button"
-              style="padding:12px 20px; border:none; border-radius:8px; background:linear-gradient(90deg,#ff6ec4,#7873f5); color:#fff; font-weight:600; cursor:pointer;">
-              Send Message
-            </button>
+            <button class="visit-btn" id="cf-send" type="button"
+  style="
+    padding:12px 20px; 
+    border:none; 
+    border-radius:8px; 
+    background:linear-gradient(90deg,#ff6ec4,#7873f5); 
+    color:#fff; 
+    font-weight:600; 
+    cursor:pointer;
+    transition:0.3s ease;
+  ">
+  Send Message
+</button>
+
+<style>
+  /* Hover Effect */
+  .visit-btn:hover {
+    transform: scale(1.08);
+    filter: brightness(1.15);
+    box-shadow: 0 6px 18px rgba(255,110,196,0.45);
+  }
+
+  /* Click Effect */
+  .visit-btn:active {
+    transform: scale(0.95);
+  }
+</style>
+
 
             <div id="cf-note" style="margin-top:12px; color:var(--muted); font-size:14px;"></div>
           </form>
