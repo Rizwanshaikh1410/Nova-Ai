@@ -48,8 +48,24 @@ h1 { font-size: 20px; margin: 0 0 6px 0; }
 }
 
 /* Controls */
-.controls { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start; }
-.controls-row { display: flex; gap: 8px; align-items: center; }
+/* Desktop + Mobile both */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;        /* items vertically center */
+    justify-content: center;    /* items horizontally center */
+    text-align: center;
+}
+
+/* Controls-row ko bhi center kar do */
+.controls-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;    /* center horizontally */
+}
+
 
 /* Search + Inputs */
 .search { display: flex; gap: 8px; align-items: center; }
@@ -229,7 +245,11 @@ button.primary:hover::before {
 @media (max-width: 700px) {
   .search { flex-direction: column; width: 100%; }
   .search input { width: 100%; }
-  .controls { flex-direction: column; }
+   .controls {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* dropdown menu */
@@ -270,4 +290,38 @@ select option:checked {
   background: rgba(86,182,255,1);
   color: #000;
   font-weight: 600;
+}
+/* Main heading block center */
+.ai-heading-section {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal center */
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.ai-heading-section h1 {
+    margin: 0 0 6px 0;
+}
+
+.ai-heading-section .topline {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+/* -------------------------
+   Responsive (Mobile View)
+-------------------------- */
+@media (max-width: 600px) {
+    .ai-heading-section h1 {
+        font-size: 20px;      /* mobile size */
+        line-height: 28px;
+    }
+
+    .ai-heading-section .topline {
+        font-size: 12px;      /* slightly smaller */
+    }
 }

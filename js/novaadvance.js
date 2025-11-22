@@ -9743,7 +9743,7 @@ function wireUI(){
   document.getElementById('exportBtn')?.addEventListener('click', ()=>{ const data = JSON.stringify(DB, null, 2); const blob = new Blob([data], {type:'application/json'}); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'nova_tools_export.json'; a.click(); URL.revokeObjectURL(url); });
 
   // Grouped view toggle
-  const toggle = document.createElement('button'); toggle.className='primary'; toggle.style.marginLeft='8px'; toggle.textContent = 'Group by Category'; toggle.addEventListener('click', ()=>{ groupedView = !groupedView; toggle.textContent = groupedView? 'Paginated View' : 'Group by Category'; render(); }); const controls = document.querySelector('.controls'); if(controls) controls.appendChild(toggle);
+  //const toggle = document.createElement('button'); toggle.className='primary'; toggle.style.marginLeft='8px'; toggle.textContent = 'Group by Category'; toggle.addEventListener('click', ()=>{ groupedView = !groupedView; toggle.textContent = groupedView? 'Paginated View' : 'Group by Category'; render(); }); const controls = document.querySelector('.controls'); if(controls) controls.appendChild(toggle);
 
   // Category select change
   document.getElementById('categorySelect')?.addEventListener('change', ()=>{ applyFilters(); });
