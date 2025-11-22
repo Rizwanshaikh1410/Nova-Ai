@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nova AI</title>
+  <link href="https://novaai14.netlify.app/atom.xml" rel="self"/>
+  <link href="https://novaai14.netlify.app/"/>
+  <updated>2025-11-19T13:53:21+00:00</updated>
+
+  <!-- Root Pages -->
+  <entry>
+    <title>Home</title>
+    <link href="https://novaai14.netlify.app/"/>
+    <id>https://novaai14.netlify.app/</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Welcome to Nova AI website</summary>
+  </entry>
+  <entry>
+    <title>Blog</title>
+    <link href="https://novaai14.netlify.app/blog"/>
+    <id>https://novaai14.netlify.app/blog</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Latest blog posts on Nova AI</summary>
+  </entry>
+  <entry>
+    <title>Nova Advance</title>
+    <link href="https://novaai14.netlify.app/novaadvance"/>
+    <id>https://novaai14.netlify.app/novaadvance</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Nova Advance AI tools and updates</summary>
+  </entry>
+  <entry>
+    <title>About</title>
+    <link href="https://novaai14.netlify.app/about"/>
+    <id>https://novaai14.netlify.app/about</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>About Nova AI</summary>
+  </entry>
+  <entry>
+    <title>Contact</title>
+    <link href="https://novaai14.netlify.app/contact"/>
+    <id>https://novaai14.netlify.app/contact</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Contact page of Nova AI</summary>
+  </entry>
+  <entry>
+    <title>Support</title>
+    <link href="https://novaai14.netlify.app/support"/>
+    <id>https://novaai14.netlify.app/support</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Support page for Nova AI users</summary>
+  </entry>
+  <entry>
+    <title>Explore</title>
+    <link href="https://novaai14.netlify.app/explore"/>
+    <id>https://novaai14.netlify.app/explore</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Explore AI tools and directories</summary>
+  </entry>
+  <entry>
+    <title>Update</title>
+    <link href="https://novaai14.netlify.app/update"/>
+    <id>https://novaai14.netlify.app/update</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Latest updates on Nova AI</summary>
+  </entry>
+
+  <!-- /pages/ entries -->
+  <entry>
+    <title>Kapwing</title>
+    <link href="https://novaai14.netlify.app/pages/kapwing"/>
+    <id>https://novaai14.netlify.app/pages/kapwing</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Kapwing AI tool page</summary>
+  </entry>
+  <entry>
+    <title>Flixier</title>
+    <link href="https://novaai14.netlify.app/pages/flixier"/>
+    <id>https://novaai14.netlify.app/pages/flixier</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Flixier AI tool page</summary>
+  </entry>
+  <entry>
+    <title>Vidnoz</title>
+    <link href="https://novaai14.netlify.app/pages/vidnoz"/>
+    <id>https://novaai14.netlify.app/pages/vidnoz</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Vidnoz AI tool page</summary>
+  </entry>
+  <entry>
+    <title>Invideo</title>
+    <link href="https://novaai14.netlify.app/pages/invideo"/>
+    <id>https://novaai14.netlify.app/pages/invideo</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Invideo AI tool page</summary>
+  </entry>
+  <entry>
+    <title>Pictory</title>
+    <link href="https://novaai14.netlify.app/pages/pictory"/>
+    <id>https://novaai14.netlify.app/pages/pictory</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Pictory AI tool page</summary>
+  </entry>
+  <entry>
+    <title>Pixverse</title>
+    <link href="https://novaai14.netlify.app/pages/pixverse"/>
+    <id>https://novaai14.netlify.app/pages/pixverse</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Pixverse AI tool page</summary>
+  </entry>
+  <entry>
+    <title>Simplified</title>
+    <link href="https://novaai14.netlify.app/pages/simplified"/>
+    <id>https://novaai14.netlify.app/pages/simplified</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Simplified AI tool page</summary>
+  </entry>
+  <entry>
+    <title>Pixaia</title>
+    <link href="https://novaai14.netlify.app/pages/pixaia"/>
+    <id>https://novaai14.netlify.app/pages/pixaia</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Pixaia AI tool page</summary>
+  </entry>
+
+  <!-- Continue same format for all remaining /pages/... from your sitemap -->
+
+  <entry>
+    <title>Disclaimer</title>
+    <link href="https://novaai14.netlify.app/disclaimer"/>
+    <id>https://novaai14.netlify.app/disclaimer</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Disclaimer page</summary>
+  </entry>
+  <entry>
+    <title>Terms</title>
+    <link href="https://novaai14.netlify.app/terms"/>
+    <id>https://novaai14.netlify.app/terms</id>
+    <updated>2025-11-19T13:53:21+00:00</updated>
+    <summary>Terms Conditions page</summary>
+  </entry>
+
+</feed>
