@@ -1,11 +1,35 @@
-/* Custom styles for Nova AI */
+/* -----------------------------------------
+   Nova AI — Updated, Clean & Fully Responsive
+   (Your colors, gradients, variables untouched)
+------------------------------------------ */
+
+/* Root Variables */
 :root {
   --bg: #ffffff;
   --text: #111827;
   --muted: #6b7280;
   --accent: #7b61ff;
   --card: #f8fafc;
+
+  --radius: 12px;
+  --shadow: 0 8px 24px rgba(15,23,42,0.06);
+
+  --container: 1100px;
+
+  --s-4: 4px;
+  --s-6: 6px;
+  --s-8: 8px;
+  --s-12: 12px;
+  --s-16: 16px;
+  --s-20: 20px;
+  --s-24: 24px;
+  --s-28: 28px;
+  --s-32: 32px;
+  --s-40: 40px;
+  --s-60: 60px;
 }
+
+/* Dark theme */
 [data-theme="dark"] {
   --bg: #071026;
   --text: #e6eef8;
@@ -14,27 +38,141 @@
   --card: #071026;
 }
 
-body{
+/* -----------------------------------------
+   Global Layout Fix
+------------------------------------------ */
+body {
   background: var(--bg);
   color: var(--text);
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-}
-.navbar-brand img { width:48px; height:48px; transition: transform 0.6s ease; }
-.navbar-brand img:hover { transform: rotate(360deg); }
-.logo-rotate { display:inline-block; }
-.footer { padding:40px 0; background: var(--card); color:var(--muted); }
-.hero { padding:60px 0; text-align:center; }
-.card-custom { border-radius:12px; box-shadow: 0 8px 24px rgba(15,23,42,0.06); background:var(--card); padding:20px; }
-.site-container { max-width:1100px; margin:0 auto; padding:20px; }
-.ai-title { font-weight:700; margin-bottom:6px; }
-.ai-desc { color:var(--muted); margin-bottom:12px; }
-.page-center { display:flex; justify-content:center; }
-.visit-btn { background: linear-gradient(90deg,var(--accent), #00d4ff); color:white; border:0; padding:10px 16px; border-radius:8px; }
-.theme-toggle { cursor:pointer; }
-.category-dropdown .dropdown-menu { max-height:320px; overflow:auto; }
-.center-content { max-width:900px; margin: 24px auto; }
-@media (max-width:767px){
-  .hero { padding:30px 12px; }
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
-[data-theme='dark'] h1, [data-theme='dark'] h2, [data-theme='dark'] h3, [data-theme='dark'] h4, [data-theme='dark'] h5, [data-theme='dark'] a { color: var(--text) !important; }
+img { display: block; max-width: 100%; height: auto; }
+a { text-decoration: none; color: inherit; }
+
+/* Perfectly centered container */
+.site-container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* -----------------------------------------
+   Navbar
+------------------------------------------ */
+.navbar-brand img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.6s ease;
+}
+.navbar-brand img:hover {
+  transform: rotate(360deg);
+}
+
+.logo-rotate { display: inline-block; }
+
+/* -----------------------------------------
+   Hero Section (Extra gaps removed)
+------------------------------------------ */
+.hero {
+  padding: var(--s-60) 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.center-content {
+  max-width: 900px;
+  margin: 24px auto;
+}
+
+@media (max-width: 767px) {
+  .hero { padding: var(--s-32) 12px; }
+}
+
+/* -----------------------------------------
+   Cards / Tool Items
+------------------------------------------ */
+.card-custom {
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  padding: var(--s-20);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Titles / Descriptions */
+.ai-title {
+  font-weight: 700;
+  margin-bottom: var(--s-6);
+}
+.ai-desc {
+  color: var(--muted);
+  margin-bottom: var(--s-12);
+}
+
+/* -----------------------------------------
+   Grid Fix (Spacing optimized)
+------------------------------------------ */
+.tools-grid,
+.cards-grid,
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--s-20);
+  margin-top: var(--s-24);
+}
+
+/* -----------------------------------------
+   Center Utility
+------------------------------------------ */
+.page-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* -----------------------------------------
+   Buttons
+------------------------------------------ */
+.visit-btn {
+  background: linear-gradient(90deg, var(--accent), #00d4ff);
+  color: white;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* -----------------------------------------
+   Dropdown Limits
+------------------------------------------ */
+.category-dropdown .dropdown-menu {
+  max-height: 320px;
+  overflow: auto;
+}
+
+/* -----------------------------------------
+   Footer
+------------------------------------------ */
+.footer {
+  padding: 40px 0;
+  background: var(--card);
+  color: var(--muted);
+}
+
+/* -----------------------------------------
+   Theme Fix (Dark mode headings)
+------------------------------------------ */
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3,
+[data-theme='dark'] h4,
+[data-theme='dark'] h5,
+[data-theme='dark'] a {
+  color: var(--text) !important;
+}
