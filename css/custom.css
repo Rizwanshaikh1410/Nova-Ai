@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5 {
 
 
 /* Toggle Button — perfect right alignment */
-.navbar-toggler {
+/* .navbar-toggler {
   position: absolute;
   right: 20px;
   top: 18px;
@@ -23,14 +23,14 @@ h1, h2, h3, h4, h5 {
   outline: none;
   background: transparent;
   box-shadow: none;
-}
+} */
 
 /* Icon visible banane ke liye */
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
   filter: invert(1);
   width: 24px;
   height: 24px;
-}
+} */
 
 
 /* 🔍 Unique Search Button Design */

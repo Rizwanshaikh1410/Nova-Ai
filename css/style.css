@@ -49,7 +49,9 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
-
+.navbar-toggler-icon{
+  filter: invert(1);
+}
 img { display: block; max-width: 100%; height: auto; }
 a { text-decoration: none; color: inherit; }
 
