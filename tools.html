@@ -1,0 +1,523 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tools Page| Nova-AI | AI Tool Directory Hub</title>
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
+
+        <!-- ======================= FAVICON START ======================= -->
+
+        <link rel="icon" href="/assets/favicon_io/favicon.ico" type="image/png" />
+        <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/android-chrome-192x192.png" />
+        <link rel="manifest" href="/assets/favicon_io/site.webmanifest" />
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+
+        <!-- ======================= FAVICON END ========================= -->
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/tools.css">
+
+        <!-- nova meta tags start here -->
+        <!-- Meta Description -->
+        <meta name="description"
+            content="Explore all AI tools on Nova-AI — a fast and comprehensive directory of 5000+ AI tools for productivity, marketing, design, automation, coding, writing, business workflows, and more. Updated daily with trending AI apps.">
+
+        <!-- Core Keywords -->
+        <meta name="keywords"
+            content="AI tools list, AI tool directory, Nova-AI tools, AI apps, automation tools, free AI tools, trending AI tools, best AI tools 2025, AI productivity tools, AI writing tools, AI image tools, AI coding tools, AI business solutions, AI design tools, AI marketing tools">
+
+        <!-- Indexing -->
+        <meta name="robots" content="index, follow">
+        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+        <!-- Content Type & Language -->
+        <meta name="language" content="en">
+        <meta name="content-language" content="en-us">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <!-- Topic / Category Metadata -->
+        <meta name="subject" content="AI Tools – Full Directory List">
+        <meta name="classification" content="AI Software, AI Tools Directory">
+        <meta name="topic" content="Artificial Intelligence Tools and Applications">
+        <meta name="page-type" content="Tools Listing Page">
+        <meta name="page-topic" content="AI Tools Collection">
+        <meta name="intent" content="Search & Discovery">
+
+        <!-- Target Audience -->
+        <meta name="audience" content="Tech Enthusiasts, Developers, Marketers, Designers, Businesses, Students">
+        <meta name="target" content="AI Users, Automation Seekers, Professionals">
+
+        <!-- OG Tags (Social Visibility) -->
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Nova-AI">
+        <meta property="og:description"
+            content="Browse 5000+ categorized AI tools on Nova-AI. Find tools for automation, marketing, design, productivity, writing, and coding. Fast search. Daily updates.">
+        <meta property="og:image" content="https://novaai14.netlify.app/tools-og.jpg">
+        <meta property="og:locale" content="en_US">
+
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:description"
+            content="Explore every AI tool available on Nova-AI — discover automation, coding, writing, business, design and marketing AI tools instantly.">
+        <meta name="twitter:image" content="https://novaai14.netlify.app/tools-og.jpg">
+
+        <!-- Crawl Frequency -->
+        <meta name="revisit-after" content="1 days">
+
+        <!-- Mobile Optimization -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="HandheldFriendly" content="true">
+
+        <!-- Technical Metadata -->
+        <meta name="distribution" content="global">
+        <meta name="rating" content="general">
+        <meta name="coverage" content="Worldwide">
+        <meta name="application-name" content="Nova-AI Platform">
+
+        <!-- Performance / Search Enhancers -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+        <meta http-equiv="Expires" content="never">
+
+        <!-- Extended Semantic SEO -->
+        <meta name="description:extended"
+            content="Nova-AI Tools page helps users discover all AI tools across 40+ categories including writing AI, coding AI, marketing AI, design AI, productivity AI, automation AI, business AI, and content creation AI. Optimized for fast browsing and instant tool comparison.">
+        <meta name="search-intent" content="AI tools discovery">
+        <meta name="tool-count" content="5000+">
+        <meta name="category-count" content="40+">
+        <!-- nova meta tags end here -->
+
+
+        <!-- Google Tag Manager Analytics Code -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WD6BK7DZHY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-WD6BK7DZHY');
+        </script>
+        <!-- End Google Tag Manager Analytics Code -->
+        <!-- Googlr Tag Manager Analytics Code -->
+        <!-- Google Tag Manager -->
+        <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-53D3J38C');</script>
+        <!-- End Google Tag Manager -->
+        <!-- End Google Tag Manager Analytics Code -->
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53D3J38C" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!-- Particle Background -->
+        <div id="particles-js"></div>
+
+        <!-- Animated Background Elements -->
+        <div class="bg-animation" id="bg-animation"></div>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo-container">
+                    <div class="logo">N</div>
+                    <a class="navbar-brand" href="#">Nova-AI</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tools.html">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                            <a class="btn btn-neon" href="categories.html">Tool Category</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="display-4 fw-bold mb-4 animate__animated animate__fadeInUp">
+                                Discover <span class="gradient-text">5000+ AI Tools</span> for Every Workflow
+                            </h1>
+                            <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s">
+                                The most comprehensive directory of AI tools for creators, developers, marketers, and
+                                businesses. Find, compare, and use the best AI tools available.
+                            </p>
+                            <div class="d-flex flex-wrap gap-3 animate__animated animate__fadeInUp animate__delay-2s">
+                                <a href="#tools-section" class="btn btn-neon btn-lg px-4">
+                                    <i class="fas fa-rocket me-2"></i>Explore Tools
+                                </a>
+                                <a href="#categories" class="btn btn-outline-neon btn-lg px-4">
+                                    <i class="fas fa-list me-2"></i>Browse Categories
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-image animate__animated animate__fadeIn">
+                                <div class="floating-element">
+                                    <div class="chip">ChatGPT</div>
+                                    <div class="chip">Midjourney</div>
+                                    <div class="chip">GitHub Copilot</div>
+                                    <div class="chip">Runway ML</div>
+                                    <div class="chip">Grammarly AI</div>
+                                    <div class="chip">DALL-E 3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats-section py-5">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="stat-box">
+                                <h3 class="stat-number" id="totalTools">5,000+</h3>
+                                <p class="stat-label">AI Tools</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="stat-box">
+                                <h3 class="stat-number" id="totalCategories">120+</h3>
+                                <p class="stat-label">Categories</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="stat-box">
+                                <h3 class="stat-number" id="freeTools">2,500+</h3>
+                                <p class="stat-label">Free Tools</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 mb-4">
+                            <div class="stat-box">
+                                <h3 class="stat-number" id="updatedDaily">Daily</h3>
+                                <p class="stat-label">Updated</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tools Directory Section -->
+            <section id="tools-section" class="tools-section py-5">
+                <div class="container">
+                    <div class="section-header text-center mb-5">
+                        <h2 class="display-5 fw-bold mb-3">AI Tools Directory</h2>
+                        <p class="lead">Browse, search, and filter 5000+ AI tools across 100+ categories</p>
+                    </div>
+
+                    <!-- Filters & Search -->
+                    <div class="search-filters card mb-5">
+                        <div class="card-body">
+                            <div class="row g-4">
+                                <!-- Search Bar -->
+                                <div class="col-lg-5">
+                                    <div class="filter-group">
+                                        <label class="filter-label">
+                                            <i class="fas fa-search me-2"></i> Search
+                                        </label>
+
+                                        <div class="search-box">
+                                            <i class="fas fa-search search-icon"></i>
+                                            <input type="text" id="searchInput" class="form-control search-input"
+                                                placeholder="Search tools, categories, or descriptions...">
+                                            <button id="clearSearch" class="btn btn-clear">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Category Filter -->
+                                <div class="col-lg-3">
+                                    <div class="filter-group">
+                                        <label for="categoryFilter" class="filter-label">
+                                            <i class="fas fa-filter me-2"></i>Category
+                                        </label>
+                                        <select id="categoryFilter" class="form-select filter-select">
+                                            <option value="">All Categories</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <!-- Pricing Filter -->
+                                <div class="col-lg-4">
+                                    <div class="filter-group">
+                                        <label class="filter-label">
+                                            <i class="fas fa-tag me-2"></i>Pricing
+                                        </label>
+                                        <div class="pricing-filter">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input pricing-check" type="checkbox" id="freeCheck"
+                                                    value="free" checked>
+                                                <label class="form-check-label" for="freeCheck">Free</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input pricing-check" type="checkbox" id="paidCheck"
+                                                    value="paid" checked>
+                                                <label class="form-check-label" for="paidCheck">Paid</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input pricing-check" type="checkbox"
+                                                    id="freemiumCheck" value="freemium" checked>
+                                                <label class="form-check-label" for="freemiumCheck">Freemium</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Active Filters & Results -->
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <div id="activeFilters" class="active-filters"></div>
+                                </div>
+                                <div class="col-md-6 text-end">
+                                    <div id="resultsCount" class="results-count">Showing 0 of 0 tools</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools Grid -->
+                    <div id="toolsGrid" class="row g-4">
+                        <!-- Tools will be loaded here by JavaScript -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination-container mt-5">
+                        <nav aria-label="Tools pagination">
+                            <ul class="pagination justify-content-center" id="pagination">
+                                <!-- Pagination will be generated by JavaScript -->
+                            </ul>
+                        </nav>
+                        <div class="text-center mt-3">
+                            <small class="text-muted" id="pageInfo">Page 1 of 1</small>
+                        </div>
+                    </div>
+
+                    <!-- Loading Indicator -->
+                    <div id="loadingIndicator" class="text-center py-5">
+                        <div class="spinner-border text-neon" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-3">Loading AI tools...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Categories Preview Section -->
+            <section id="categories" class="categories-section py-5">
+                <div class="container">
+                    <div class="section-header text-center mb-5">
+                        <h2 class="display-5 fw-bold mb-3">Explore Categories</h2>
+                        <p class="lead text-muted">Browse AI tools by category</p>
+                    </div>
+
+                    <div id="categoriesGrid" class="row g-4">
+                        <!-- Categories will be loaded by JavaScript -->
+                    </div>
+
+                    <!-- CHANGE: Button JS ke bajay direct page open kare -->
+   <!-- Replace button with link -->
+<div class="text-center mt-5">
+    <a href="/categories.html" class="btn btn-outline-neon" id="showAllCategories">
+        <i class="fas fa-eye me-2"></i>View All Categories
+    </a>
+</div>
+
+                </div>
+            </section>
+
+            <!-- How to Use Section -->
+            <section class="how-to-section py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h2 class="display-6 fw-bold mb-4">How to Use Nova-AI</h2>
+                            <div class="how-to-steps">
+                                <div class="step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h5>Search & Filter</h5>
+                                        <p>Use the search bar and filters to find exactly what you need</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h5>Browse Tools</h5>
+                                        <p>Explore tools by category or check out trending tools</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h5>Visit & Use</h5>
+                                        <p>Click "Visit" to go directly to the tool's website</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="feature-card card">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <i class="fas fa-star text-warning me-2"></i>Pro Tip
+                                    </h4>
+                                    <p class="card-text">
+                                        Use multiple filters to narrow down your search. For example, search for "video
+                                        editing" + "free" to find free video editing AI tools.
+                                    </p>
+                                    <div class="mt-4">
+                                        <div class="badge bg-neon text-dark me-2">5000+ Tools</div>
+                                        <div class="badge bg-neon text-dark me-2">Updated Daily</div>
+                                        <div class="badge bg-neon text-dark">Free Access</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- Footer -->
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="footer-logo">
+                            <div class="logo">N</div>
+                            <div class="footer-logo-text">Nova-AI</div>
+                        </div>
+                        <p class="footer-tagline">AI Tool Directory Hub - Your gateway to the world of artificial
+                            intelligence tools and solutions.</p>
+
+                        <div class="footer-contact">
+                            <p><i class="fas fa-envelope"></i> novaai1410@gmail.com</p>
+                            <p><i class="fas fa-building"></i> Made By: Rizwan Shaikh</p>
+                        </div>
+
+                        <div class="social-icons">
+                        <a href="https://www.instagram.com/Nova-AI/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+                        <div class="footer-links">
+                            <h5>Pages</h5>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="tools.html">AI Tools</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="Terms.html">Terms & Condition</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 mb-5 mb-md-0">
+                        <div class="footer-links">
+                            <h5>Popular Categories</h5>
+                            <ul>
+                                <li><a href="tools.html?category=Gaming%20AI">Gaming AI</a></li>
+                                <li><a href="tools.html?category=Content%20Creation">Content Creation</a></li>
+                                <li><a href="tools.html?category=Image%20%26%20Design">Image Generation</a></li>
+                                <li><a href="tools.html?category=Video%20Creation">Video Generation & Editing AI</a></li>
+                                <li><a href="tools.html?category=Cyber%20Security%20AI">Cyber Security AI</a></li>
+                                <li><a href="tools.html?category=Coding%20%26%20Development">Coding & Development</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="footer-links newsletter-box">
+                            <h5>Newsletter</h5>
+                            <p class="text-muted mb-3">Subscribe to get updates on new AI tools and features.</p>
+
+                            <form action="https://formspree.io/f/xeoywqel" method="POST">
+                             <!-- Honeypot spam protection -->
+                             <input type="text" name="_gotcha" style="display:none">
+                            <div class="newsletter-input">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <button type="submit" class="btn btn-neon">Subscribe</button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="copyright">
+                    <p>Copyright © 2025 <a href="#">Nova AI Tool Directory Hub</a>. All rights reserved. | Designed with <i
+                            class="fas fa-heart" style="color: #ff6b8b;"></i> by Rizwan Shaikh</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Bootstrap JS Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Particles.js -->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+        <!-- Custom JS -->
+        <script src="js/script.js"></script>
+        <script src="js/tools.js"></script>
+        <script src="js/novaadvance.js"></script>
+    </body>
+
+    </html>

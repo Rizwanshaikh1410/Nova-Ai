@@ -1,0 +1,302 @@
+[
+  {
+    "name": "OpenAI ChatGPT",
+    "description": "Advanced conversational AI for writing, coding, researching & creative tasks.",
+    "pricing": "freemium",
+    "category": "Content Creation",
+    "domain": "openai.com",
+    "rating": 4.8,
+    "visits": 150000000,
+    "tags": ["chat", "text", "assistant", "gpt"]
+  },
+  {
+    "name": "QuillBot",
+    "description": "Paraphrasing, summarizing and rewriting tool.",
+    "pricing": "freemium",
+    "category": "Writing",
+    "domain": "quillbot.com",
+    "rating": 4.2,
+    "visits": 160000,
+    "tags": ["paraphrase", "rewrite"]
+  },
+  {
+    "name": "Notion AI",
+    "description": "Integrated AI writing inside Notion for notes, docs & organization.",
+    "pricing": "paid",
+    "category": "Productivity",
+    "domain": "notion.so",
+    "rating": 4.3,
+    "visits": 1800000,
+    "tags": ["notes", "productivity", "docs"]
+  },
+  {
+    "name": "Jasper AI",
+    "description": "AI content creator made for marketing, ads, blogs & brand copy.",
+    "pricing": "paid",
+    "category": "Marketing",
+    "domain": "jasper.ai",
+    "rating": 4.3,
+    "visits": 240000,
+    "tags": ["marketing", "ads", "writing"]
+  },
+  {
+    "name": "Writesonic",
+    "description": "SEO & marketing AI writer with chatbot and editor tools.",
+    "pricing": "freemium",
+    "category": "Marketing",
+    "domain": "writesonic.com",
+    "rating": 4.0,
+    "visits": 140000,
+    "tags": ["blog", "ads", "seo"]
+  },
+  {
+    "name": "Rytr",
+    "description": "Simple AI writer for blogs, captions & outlines.",
+    "pricing": "freemium",
+    "category": "Writing",
+    "domain": "rytr.me",
+    "rating": 4.0,
+    "visits": 95000,
+    "tags": ["simple", "writer", "blog"]
+  },
+  {
+    "name": "Copy AI",
+    "description": "AI writing suite for blogs, product descriptions & business emails.",
+    "pricing": "freemium",
+    "category": "Writing",
+    "domain": "copy.ai",
+    "rating": 4.1,
+    "visits": 210000,
+    "tags": ["copy", "product", "occurrence"]
+  },
+  {
+    "name": "Sudowrite",
+    "description": "AI story writer for fiction authors.",
+    "pricing": "paid",
+    "category": "Creative Writing",
+    "domain": "sudowrite.com",
+    "rating": 4.1,
+    "visits": 38000,
+    "tags": ["fiction", "story", "creative"]
+  },
+  {
+    "name": "Writesream",
+    "description": "AI writer for cold emails, podcasts & marketing content.",
+    "pricing": "freemium",
+    "category": "Marketing",
+    "domain": "writesream.com",
+    "rating": 3.3,
+    "visits": 60000,
+    "tags": ["cold email", "podcast", "ads"]
+  },
+  {
+    "name": "Grammarly",
+    "description": "Grammar checker, clarity improver and tone fixing AI.",
+    "pricing": "freemium",
+    "category": "Writing",
+    "domain": "grammarly.com",
+    "rating": 4.3,
+    "visits": 900000,
+    "tags": ["grammar", "tone", "proofreading"]
+  },
+  {
+    "name": "Flowrite",
+    "description": "AI email automation & professional writing tool.",
+    "pricing": "paid",
+    "category": "Productivity",
+    "domain": "flowrite.com",
+    "rating": 4.1,
+    "visits": 27000,
+    "tags": ["email", "productivity"]
+  },
+  {
+    "name": "Peppertype",
+    "description": "AI text generator for teams, agencies & marketers.",
+    "pricing": "paid",
+    "category": "Marketing",
+    "domain": "peppertype.ai",
+    "rating": 4.1,
+    "visits": 90000,
+    "tags": ["team", "marketing"]
+  },
+  {
+    "name": "Midjourney",
+    "description": "AI-powered image generation tool that creates stunning artwork from text prompts.",
+    "pricing": "paid",
+    "category": "Image Generation",
+    "domain": "midjourney.com",
+    "rating": 4.7,
+    "visits": 85000000,
+    "tags": ["image", "art", "generation"]
+  },
+  {
+    "name": "Runway ML",
+    "description": "Creative suite with AI tools for video editing, image generation, and multimedia.",
+    "pricing": "freemium",
+    "category": "Video AI",
+    "domain": "runwayml.com",
+    "rating": 4.6,
+    "visits": 4500000,
+    "tags": ["video", "editing", "creative"]
+  },
+  {
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer that helps you write code faster with autocomplete suggestions.",
+    "pricing": "paid",
+    "category": "Development",
+    "domain": "github.com",
+    "rating": 4.5,
+    "visits": 3500000,
+    "tags": ["code", "programming", "development"]
+  },
+  {
+    "name": "Hugging Face",
+    "description": "Platform for building, training and deploying machine learning models.",
+    "pricing": "free",
+    "category": "Development",
+    "domain": "huggingface.co",
+    "rating": 4.8,
+    "visits": 12000000,
+    "tags": ["ml", "models", "open-source"]
+  },
+  {
+    "name": "Canva AI",
+    "description": "AI-powered design tools for creating graphics, presentations, and documents.",
+    "pricing": "freemium",
+    "category": "Design",
+    "domain": "canva.com",
+    "rating": 4.4,
+    "visits": 95000000,
+    "tags": ["design", "graphics", "presentation"]
+  },
+  {
+    "name": "Descript",
+    "description": "AI video and audio editing tool with transcription and voice cloning.",
+    "pricing": "freemium",
+    "category": "Video AI",
+    "domain": "descript.com",
+    "rating": 4.3,
+    "visits": 1800000,
+    "tags": ["video", "audio", "editing"]
+  },
+  {
+    "name": "Synthesia",
+    "description": "Create AI-generated videos with realistic avatars from text.",
+    "pricing": "paid",
+    "category": "Video AI",
+    "domain": "synthesia.io",
+    "rating": 4.5,
+    "visits": 3200000,
+    "tags": ["video", "avatars", "synthesis"]
+  },
+  {
+    "name": "DALL-E 2",
+    "description": "AI system that can create realistic images and art from text descriptions.",
+    "pricing": "paid",
+    "category": "Image Generation",
+    "domain": "openai.com/dall-e-2",
+    "rating": 4.6,
+    "visits": 65000000,
+    "tags": ["image", "art", "generation"]
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "Open-source text-to-image generation model.",
+    "pricing": "free",
+    "category": "Image Generation",
+    "domain": "stability.ai",
+    "rating": 4.4,
+    "visits": 28000000,
+    "tags": ["image", "open-source", "generation"]
+  },
+  {
+    "name": "Murf AI",
+    "description": "AI voice generator for creating realistic voiceovers.",
+    "pricing": "freemium",
+    "category": "Audio AI",
+    "domain": "murf.ai",
+    "rating": 4.3,
+    "visits": 1200000,
+    "tags": ["voice", "audio", "generation"]
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "AI voice synthesis platform for realistic text-to-speech.",
+    "pricing": "freemium",
+    "category": "Audio AI",
+    "domain": "elevenlabs.io",
+    "rating": 4.7,
+    "visits": 8500000,
+    "tags": ["voice", "tts", "audio"]
+  },
+  {
+    "name": "Character AI",
+    "description": "Platform for creating and chatting with AI characters.",
+    "pricing": "free",
+    "category": "Chatbots",
+    "domain": "character.ai",
+    "rating": 4.2,
+    "visits": 45000000,
+    "tags": ["chat", "characters", "conversation"]
+  },
+  {
+    "name": "Claude",
+    "description": "AI assistant focused on being helpful, harmless, and honest.",
+    "pricing": "freemium",
+    "category": "Chatbots",
+    "domain": "anthropic.com",
+    "rating": 4.6,
+    "visits": 38000000,
+    "tags": ["chat", "assistant", "safe"]
+  },
+  {
+    "name": "Bard",
+    "description": "Google's conversational AI service for creative collaboration.",
+    "pricing": "free",
+    "category": "Chatbots",
+    "domain": "bard.google.com",
+    "rating": 4.1,
+    "visits": 92000000,
+    "tags": ["chat", "google", "search"]
+  },
+  {
+    "name": "Bing AI",
+    "description": "Microsoft's AI-powered search and chat assistant.",
+    "pricing": "free",
+    "category": "Search",
+    "domain": "bing.com/chat",
+    "rating": 4.0,
+    "visits": 150000000,
+    "tags": ["search", "chat", "microsoft"]
+  },
+  {
+    "name": "Perplexity AI",
+    "description": "AI-powered answer engine with source citations.",
+    "pricing": "freemium",
+    "category": "Search",
+    "domain": "perplexity.ai",
+    "rating": 4.4,
+    "visits": 25000000,
+    "tags": ["search", "answers", "research"]
+  },
+  {
+    "name": "Cody",
+    "description": "AI assistant for businesses to automate customer support.",
+    "pricing": "paid",
+    "category": "Customer Support",
+    "domain": "cody.ai",
+    "rating": 4.2,
+    "visits": 850000,
+    "tags": ["support", "business", "automation"]
+  },
+  {
+    "name": "Intercom",
+    "description": "Customer messaging platform with AI-powered chatbots.",
+    "pricing": "paid",
+    "category": "Customer Support",
+    "domain": "intercom.com",
+    "rating": 4.3,
+    "visits": 12000000,
+    "tags": ["support", "chatbot", "business"]
+  }
+]

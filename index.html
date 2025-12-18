@@ -1,101 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <!-- =====================================================
-       BASIC DOCUMENT SETUP
-  ====================================================== -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- ================= BASIC META ================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NovaAI – AI Tool Directory Hub</title>
 
-  <!-- Viewport (ONLY ONE – duplicate removed) -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NovaAI is a curated AI tools directory featuring productivity, automation, writing, design, coding, and business AI tools. Discover, compare, and explore the best AI tools in one place.">
+    <meta name="keywords" content="AI tools, AI tool directory, NovaAI, AI apps, best AI tools, free AI tools, AI productivity, AI writing tools, AI automation, AI software directory">
+    <meta name="author" content="NovaAI Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://novaai14.netlify.app/">
 
-  <title>Nova AI – Discover 5000+ Best AI Tools in One Place</title>
+    <!-- ================= THEME / BRAND ================= -->
+    <meta name="theme-color" content="#00ffff">
 
-  <!-- =====================================================
-       PRIMARY SEO META TAGS
-       (Only ONE description – duplicates removed)
-  ====================================================== -->
-  <meta name="description"
-    content="Nova AI is a powerful AI tools directory to discover, compare, and explore 5000+ AI tools for writing, video editing, image generation, coding, productivity, business, and more – all in one place." />
+    <!-- ================= OPEN GRAPH ================= -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NovaAI – Curated AI Tool Directory">
+    <meta property="og:description" content="Explore curated AI tools for creators, developers, and businesses. Updated listings with practical use cases.">
+    <meta property="og:url" content="https://novaai14.netlify.app/">
+    <meta property="og:image" content="https://novaai14.netlify.app/og-image.jpg">
 
-  <meta name="keywords"
-    content="AI tools directory, best AI tools 2025, free AI tools, AI writing tools, AI video editing tools, AI image generator, AI chatbot, Nova AI, AI tools website India" />
+    <!-- ================= TWITTER CARD ================= -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NovaAI – AI Tool Directory">
+    <meta name="twitter:description" content="Find the best AI tools for productivity, automation, design, and development.">
+    <meta name="twitter:image" content="https://novaai14.netlify.app/og-image.jpg">
 
-  <meta name="author" content="Rizwan Shaikh">
-  <meta name="robots" content="index, follow">
+    <!-- ================= GOOGLE SEARCH CONSOLE ================= -->
+    <meta name="google-site-verification" content="588d4fcdf659a56a">
 
-  <!-- Canonical URL (IMPORTANT for Netlify sites) -->
-  <link rel="canonical" href="https://novaai14.netlify.app/">
+    <!-- ================= ADSENSE ACCOUNT ================= -->
+    <!-- Google AdSense Verification -->
+    <meta name="google-adsense-account" content="ca-pub-3855275154182558">
 
-  <!-- =====================================================
-       BRAND / THEME META
-  ====================================================== -->
-  <meta name="theme-color" content="#0f172a">
-  <meta name="application-name" content="Nova AI">
-  <meta name="apple-mobile-web-app-title" content="Nova AI">
+    <!-- ================= FAVICON ================= -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
 
-  <!-- =====================================================
-       FAVICON & APP ICONS
-  ====================================================== -->
-  <link rel="icon" href="/assets/Fav-Logo.png" type="image/png">
-  <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
-  <link rel="manifest" href="/assets/favicon_io/site.webmanifest">
+    <!-- ================= STYLESHEETS ================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- =====================================================
-       OPEN GRAPH (Facebook / WhatsApp / LinkedIn)
-  ====================================================== -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Nova AI – All AI Tools in One Place">
-  <meta property="og:description"
-    content="Discover and explore the best AI tools for writing, coding, video editing, image generation, and productivity on Nova AI.">
-  <meta property="og:url" content="https://novaai14.netlify.app/">
-  <meta property="og:image" content="https://novaai14.netlify.app/assets/preview-image.jpg">
-  <meta property="og:site_name" content="Nova AI">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- =====================================================
-       TWITTER CARD
-  ====================================================== -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Nova AI – Best AI Tools Directory">
-  <meta name="twitter:description"
-    content="Find and compare the best AI tools for creators, developers, and businesses.">
-  <meta name="twitter:image" content="https://novaai14.netlify.app/assets/preview-image.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 
-  <!-- =====================================================
-       STRUCTURED DATA (Schema.org)
-       (Clean & valid – no spam)
-  ====================================================== -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Nova AI",
-    "url": "https://novaai14.netlify.app/",
-    "description": "Nova AI is a curated AI tools directory listing the best tools for writing, coding, video editing, image generation, and productivity.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Nova AI",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://novaai14.netlify.app/assets/Fav-Logo.png"
+    <!-- Main Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- ================= STRUCTURED DATA ================= -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NovaAI",
+      "url": "https://novaai14.netlify.app/",
+      "description": "Curated AI tool directory for productivity, automation, writing, design, and development.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "NovaAI"
       }
     }
-  }
-  </script>
+    </script>
 
-  <!-- =====================================================
-       GOOGLE SEARCH CONSOLE VERIFICATION
-  ====================================================== -->
-  <meta name="google-site-verification" content="588d4fcdf659a56a">
-  <meta name="google-site-verification" content="rs_SbbptPaUvobsxJN7f49yZoyV8ti8L2CsVozvAiUM">
-
-  <!-- =====================================================
-       GOOGLE ANALYTICS (GA4)
-  ====================================================== -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNWJ28ZS00"></script>
+    <!-- ================= GOOGLE ANALYTICS ================= -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNWJ28ZS00"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -103,10 +77,8 @@
     gtag('config', 'G-GNWJ28ZS00');
   </script>
 
-  <!-- =====================================================
-       GOOGLE TAG MANAGER
-  ====================================================== -->
-  <script>
+    <!-- ================= GOOGLE TAG MANAGER ================= -->
+    <script>
     (function(w,d,s,l,i){
       w[l]=w[l]||[];
       w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
@@ -119,1080 +91,444 @@
     })(window,document,'script','dataLayer','GTM-5WRQ4H9L');
   </script>
 
-  <!-- =====================================================
-       GOOGLE ADSENSE (ONLY ONCE – SAFE)
-  ====================================================== -->
-  <!-- ===== GOOGLE ADSENSE START ===== -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3855275154182558"
+    <!-- ================= GOOGLE ADSENSE SCRIPT ================= -->
+    <!-- AdSense Auto Ads Script (DO NOT MOVE ABOVE META TAGS) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3855275154182558"
      crossorigin="anonymous"></script>
-  <meta name="google-adsense-account" content="ca-pub-3855275154182558">
-  <!-- ===== GOOGLE ADSENSE END ===== -->
+    <!-- ================= ADSENSE END ================= -->
 
-  <!-- =====================================================
-       CSS FILES
-  ====================================================== -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/trending.css">
-  <link rel="stylesheet" href="/css/custom.css">
-  <link rel="stylesheet" href="/css/footer.css">
 </head>
 
+
 <body>
-  
-  <!-- =====================================================
-       GOOGLE TAG MANAGER (NOSCRIPT)
-  ====================================================== -->
-  <noscript>
+
+    <!-- Google Tag Manager (noscript) -->
+   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WRQ4H9L"
       height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-  <!-- =====================================================
-       YOUR EXISTING BODY CONTENT
-       (No logic removed – SEO does not touch UI)
-  ====================================================== -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-    <div class="container site-container">
-      <a class="navbar-brand d-flex align-items-center gap-2" href="/index.html">
-        <img src="/assets/logo.svg" alt="Nova AI Logo" class="logo-rotate" />
-        <div>
-          <div style="font-weight: 700">Nova AI</div>
-          <small style="color: var(--muted)">Discover AI tools in one place</small>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Animated Background Elements -->
+    <div class="bg-animation" id="bg-animation"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo">N</div>
+                <a class="navbar-brand" href="#">Nova-AI</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-neon" href="categories.html">Tool Category</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navCollapse">
-        <form class="d-flex ms-3 my-2 my-lg-0" role="search" onsubmit="return false;">
-          <input id="siteSearch" class="form-control me-2" type="search" placeholder="Search tools, e.g., Kapwing"
-            aria-label="Search" />
-          <select id="filterCategory" class="form-select me-2">
-            <option value="">All Categories</option>
-            <option value="Top Video Editing AI">Video Editing</option>
-            <option value="AI Voice (Voice Cloning / Text-to-Speech)">
-              Voice
-            </option>
-            <option value="Image Generator AI">Image</option>
-            <option value="Content Writing AI">Writing</option>
-            <option value="Website Builder AI">Website Builder</option>
-            <option value="Top AI PDF Editing Tools">PDF Tools</option>
-            <option value="Main / Top Trending AI (For All Features)">
-              Top AI
-            </option>
-          </select>
-          <button class="search-btn" id="searchBtn" type="button">
-            Search
-          </button>
-        </form>
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-          <li class="nav-item">
-            <a class="nav-link" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/novaadvance.html">All Tools</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/support.html">Support</a>
-          </li>
-          <!-- <li class="nav-item">
-              <a
-                class="nav-link theme-toggle"
-                id="themeToggle"
-                href="javascript:void(0)"
-                >☀️</a
-              >
-            </li> -->
-        </ul>
-      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <span class="tagline">AI Tool Directory Hub</span>
+                        <h1 class="hero-title">Discover The Future of <span
+                                class="animate__animated animate__pulse animate__infinite">AI Tools</span></h1>
+                        <p class="hero-subtitle">Nova-AI is the ultimate directory for AI tools, resources, and
+                            solutions. Find the perfect AI tool for your needs from our curated collection of
+                            cutting-edge technologies.</p>
+                        <div class="d-flex flex-wrap">
+                            <a href="tools.html" class="btn btn-neon">Explore Tools <i
+                                    class="fas fa-arrow-right ms-2"></i></a>
+                            <a href="contact.html" class="btn btn-border-anim">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="position-relative">
+                        <div class="service-card animate__animated animate__pulse animate__infinite"
+                            style="animation-duration: 2s;">
+                            <div class="service-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3>AI Tool of the Week</h3>
+                            <p>Check out our featured AI tool that's revolutionizing content creation with advanced
+                                neural networks.</p>
+                            <a href="https://gemini.google.com/app" class="btn btn-border-anim">Try Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="stats-container">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <div class="stat-number" data-count="5000">0</div>
+                            <div class="stat-text">AI Tools Listed</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <div class="stat-number" data-count="98">0</div>
+                            <div class="stat-text">Categories</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <div class="stat-number" data-count="50000">0</div>
+                            <div class="stat-text">50K+ Users</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stat-box">
+                            <div class="stat-number" data-count="24">0</div>
+                            <div class="stat-text">24/7 Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured AI Tools</h2>
+                <p>Discover the most powerful and innovative AI tools in our directory, handpicked for excellence and
+                    impact.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate__animated animate__fadeInUp">
+                        <div class="service-icon">
+                            <i class="fas fa-pen"></i>
+                        </div>
+                        <h3>Content Creation AI</h3>
+                        <p>
+                            Powerful AI tools that generate high-quality text, images, videos, and graphics
+                            with impressive accuracy and creativity. Ideal for creators, marketers, and
+                            businesses looking to accelerate content production while maintaining
+                            professional quality and consistency.
+                        </p>
+                        <a href="tools.html?category=Content%20Creation" class="btn btn-border-anim">Explore Tools</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                        <div class="service-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3>Image Editing & Generation AI</h3>
+                        <p>
+                            AI-powered tools that enhance, retouch, and transform images with precision.
+                            Create stunning visuals, edit photos automatically,and generate entirely new images with advanced generative AI models.
+                        </p>
+                        <a href="tools.html?category=Image%20%26%20Design" class="btn btn-border-anim">Explore Tools</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Video Editing AI</h3>
+                        <p>
+                            Advanced AI-powered video tools that automate editing, enhance footage,
+                            remove noise, add effects, generate clips, and streamline production workflows.
+                            Perfect for creators, marketers, and businesses looking for fast, professional-quality video
+                            output.
+                        </p>
+                        <a href="tools.html?category=Video%20Creation" class="btn btn-border-anim">Explore Tools</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools of the Week Section -->
+<section id="services" class="services-section">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>AI Tools of the Week</h2>
+            <p>Discover this week's most powerful and trending AI tools selected for performance, innovation, and impact.</p>
+        </div>
+
+        <div class="row">
+
+            <!-- ChatGPT -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card animate__animated animate__fadeInUp">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>ChatGPT (OpenAI)</h3>
+                    <p>
+                        A leading conversational AI capable of generating human-like responses, solving complex problems,
+                        creating content, writing code, and assisting with tasks across multiple domains with exceptional accuracy.
+                    </p>
+                    <a href="https://chatgpt.com/" class="btn btn-border-anim" target="_blank">Explore ChatGPT</a>
+
+                </div>
+            </div>
+
+            <!-- Google Gemini -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Google Gemini</h3>
+                    <p>
+                        Gemini is Google's powerful multimodal AI that understands text, images, audio, and more.
+                        Ideal for research, productivity, coding assistance, and advanced content understanding.
+                    </p>
+                    <a href="https://gemini.google.com/" class="btn btn-border-anim" target="_blank">Explore Gemini</a>
+                </div>
+            </div>
+
+            <!-- Blackbox AI -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Blackbox AI</h3>
+                    <p>
+                        A powerful AI tool for developers that helps write, debug, and understand code instantly.
+                        It supports code autocomplete, smart suggestions, and AI-powered explanations.
+                    </p>
+                    <a href="https://www.blackbox.ai/" class="btn btn-border-anim" target="_blank">Explore Blackbox AI</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
-  <br />
-  <br />
-
-  <header class="hero" style="padding: 0; margin: 0">
-    <div class="site-container" style="text-align: center; padding: 10px 15px">
-      <h1 style="font-weight: 800; font-size: 32px; margin-bottom: 12px">
-        Nova AI — All Your AI Tools in One Search
-      </h1>
-
-      <p class="ai-desc" style="max-width: 750px; margin: 0 auto 10px">
-        Stop switching between random sites — everything is now organized in
-        one powerful directory.
-      </p>
-
-      <p class="ai-desc" style="max-width: 750px; margin: 0 auto 15px; line-height: 1.6">
-        A major system update is live in preview mode while development
-        continues.<br />
-        All free and paid AI tools will soon be categorized cleanly with
-        upgraded navigation.<br />
-        Full rollout is targeted for <b>December 27, 2025</b>.<br />
-        More features are being added to improve speed, accuracy, and user
-        experience — and yes, the platform will remain <b>completely free</b>.
-      </p>
-      <br>
-      <div style="
-            margin-top: 15px;
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            justify-content: center;
-          ">
-        <a class="visit-btn" href="https://novaai14.netlify.app/explore" style="
-              padding: 12px 20px;
-              background: #030236;
-              color: #fff;
-              border-radius: 8px;
-              text-decoration: none;
-            ">
-          Explore Tools
-          <br> →
-        </a>
-
-        <a class="visit-btn" href="https://novaai14.netlify.app/novaadvance" style="
-              padding: 12px 20px;
-              background: #030236;
-              color: #fff;
-              border-radius: 8px;
-              text-decoration: none;
-            ">
-          AI Tools Directory <br>→
-        </a>
-
-        <a class="visit-btn" href="https://novaai14.netlify.app/about" style="
-              padding: 12px 20px;
-              background: #030236;
-              color: #fff;
-              border-radius: 8px;
-              text-decoration: none;
-            ">
-          About Nova AI <br>→
-        </a>
-
-        <a class="visit-btn" href="https://novaai14.netlify.app/support" style="
-              padding: 12px 20px;
-              background: #030236;
-              color: #fff;
-              border-radius: 8px;
-              text-decoration: none;
-            ">
-          Support PAGE <br>→
-        </a>
-
-        <a class="visit-btn" href="https://novaai14.netlify.app/contact" style="
-              padding: 12px 20px;
-              background: #030236;
-              color: #fff;
-              border-radius: 8px;
-              text-decoration: none;
-            ">
-          Contact Support <br>→
-        </a>
-
-        <a class="visit-btn" href="update.html" style="
-              padding: 12px 20px;
-              background: #ff8c00;
-              color: #fff;
-              border-radius: 8px;
-              text-decoration: none;
-            ">
-          Update Details <br>→
-        </a>
-      </div>
-
-      <div style="
-            margin-top: 15px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-            background: #071026;
-            padding: 20px;
-            border-radius: 10px;
-            color: #fff;
-          ">
-        <h2 style="font-weight: 700; margin-bottom: 12px; text-align: center">
-          Latest Update Highlights
-        </h2>
-
-        <ul style="
-              list-style: none;
-              padding: 0;
-              margin: 0 auto;
-              max-width: 650px;
-              text-align: center;
-              line-height: 1.9;
-            ">
-          <li>• New AI Categories & better filtering</li>
-          <li>• Faster search engine with 2× improved indexing</li>
-          <li>• Individual tool pages fully redesigned</li>
-          <li>• Dark mode update coming soon</li>
-          <li>• New “AI Research Insights” section planned</li>
-          <li>• User support & tool reporting improved</li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-  <section class="trending-section container">
-    <h2>🔥 Top Trending AI in 2025–26</h2>
-    <div class="row g-4">
-      <!-- ChatGPT -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>ChatGPT</h4>
-          <p class="meta">Category: General Purpose AI</p>
-          <p>
-            OpenAI’s advanced conversational AI transforming the way humans
-            interact with technology.
-          </p>
-          <a href="https://chat.openai.com" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-
-      <!-- Gemini -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>Gemini</h4>
-          <p class="meta">Category: All-in-One AI</p>
-          <p>
-            Google’s powerful multimodal AI that integrates text, images, and
-            reasoning seamlessly.
-          </p>
-          <a href="https://gemini.google.com" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-
-      <!-- AI Studio -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>AI Studio</h4>
-          <p class="meta">Category: Universal AI</p>
-          <p>
-            Create and customize your own AI projects using Google’s AI Studio
-            platform with real-time tools.
-          </p>
-          <a href="https://aistudio.google.com" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-
-      <!-- Claude AI -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>Claude AI</h4>
-          <p class="meta">Category: Content AI</p>
-          <p>
-            Anthropic’s AI assistant built for safety, reasoning, and deep
-            knowledge understanding.
-          </p>
-          <a href="https://claude.ai" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-
-      <!-- DeepSeek AI -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>DeepSeek AI</h4>
-          <p class="meta">Category: Coding & Research AI</p>
-          <p>
-            DeepSeek — a powerful open-source AI model from China designed for
-            advanced reasoning, coding, and multilingual understanding, often
-            seen as a strong alternative to ChatGPT.
-          </p>
-          <a href="https://chat.deepseek.com/" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-
-      <!-- BlackBox AI -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>BlackBox AI</h4>
-          <p class="meta">Category: Coding AI</p>
-          <p>
-            Blackbox AI — an AI-powered coding assistant that helps generate,
-            autocomplete, and explain code directly from natural language,
-          </p>
-          <a href="https://blackbox.ai/" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-      <!-- Eleven Labs AI -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>ElevenLabs</h4>
-          <p class="meta">Category: Voice AI</p>
-          <p>
-            ElevenLabs — an advanced AI voice generation tool that creates natural,
-            human-like speech with customizable voices for videos, narration, and more.
-          </p>
-          <a href="https://elevenlabs.io/" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-      <!-- Pictory AI -->
-      <div class="col-md-6 col-lg-3 col-sm-12">
-        <div class="ai-card h-100">
-          <h4>Pictory AI</h4>
-          <p class="meta">Category: Video AI</p>
-          <p>
-            Pictory AI — an AI-powered video creation tool that turns scripts,
-            articles, and long content into engaging short videos automatically.
-          </p>
-          <a href="https://pictory.ai/" target="_blank" class="btn btn-visit">Visit</a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="tools" class="site-container" aria-labelledby="tools-heading">
-  <div class="tools-grid">
-    <!-- Top Video Editing AI -->
-    <div class="grid-full">
-      <h2 id="tools-heading">🎬 Top Video Editing AI</h2>
-    </div>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Kapwing</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">AI-powered video editor with templates, auto-subtitles, and team collaboration.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/kapwing.html" aria-label="Kapwing details">View Details</a>
-          <a class="btn btn-visit" href="https://www.kapwing.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Kapwing">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Flixier</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">Fast online AI video editor perfect for creators and marketers.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/flixier.html" aria-label="Flixier details">View Details</a>
-          <a class="btn btn-visit" href="https://flixier.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Flixier">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Vidnoz</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">AI avatar and video generation for social media and business marketing.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/vidnoz.html" aria-label="Vidnoz details">View Details</a>
-          <a class="btn btn-visit" href="https://www.vidnoz.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Vidnoz">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>InVideo</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">Create videos in minutes with AI templates, subtitles, and stock media.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/invideo.html" aria-label="InVideo details">View Details</a>
-          <a class="btn btn-visit" href="https://invideo.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit InVideo">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Pictory</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">Turn scripts into videos using AI-driven scene selection and voiceovers.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/pictory.html" aria-label="Pictory details">View Details</a>
-          <a class="btn btn-visit" href="https://pictory.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Pictory">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Pixverse</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">Cloud-based video & media editing with collaborative AI tools.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/pixverse.html" aria-label="Pixverse details">View Details</a>
-          <a class="btn btn-visit" href="https://pixverse.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Pixverse">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Simplified</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">All-in-one creative suite: videos, graphics, and copy with AI help.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/simplified.html" aria-label="Simplified details">View Details</a>
-          <a class="btn btn-visit" href="https://simplified.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Simplified">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Pixaia</h4>
-        <p class="meta">Category: Top Video Editing AI</p>
-        <p class="desc">(Brand ambiguous) — placeholder entry, check external link manually.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/pixaia.html" aria-label="Pixaia details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Pixaia">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- AI Voice -->
-    <div class="grid-full"><h2>🎤 AI Voice (Voice Cloning / Text-to-Speech)</h2></div>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Veed AI (Voice Cloning)</h4>
-        <p class="meta">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
-        <p class="desc">Veed.io’s AI voice and video editor supports voice cloning and speech generation.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/veed-ai-voice-cloning.html" aria-label="Veed AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.veed.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit Veed">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Eleven Labs (Voice Cloning)</h4>
-        <p class="meta">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
-        <p class="desc">Industry-leading voice cloning with very natural TTS voices.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="#" aria-label="Eleven Labs details">View Details</a>
-          <a class="btn btn-visit" href="https://elevenlabs.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit Eleven Labs">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Speechify</h4>
-        <p class="meta">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
-        <p class="desc">Convert text and PDFs into natural AI voice across languages.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/speechify.html" aria-label="Speechify details">View Details</a>
-          <a class="btn btn-visit" href="https://speechify.com" target="_blank" rel="noopener noreferrer" aria-label="Visit Speechify">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Vidnoz AI</h4>
-        <p class="meta">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
-        <p class="desc">Voice + video AI features from Vidnoz for marketing and avatars.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/vidnoz-ai.html" aria-label="Vidnoz AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.vidnoz.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Vidnoz AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Wavel AI (Text-to-Speech)</h4>
-        <p class="meta">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
-        <p class="desc">High-quality TTS engine, good for podcasts & narration.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/wavel-ai-text-to-speech.html" aria-label="Wavel AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.wavel.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Wavel AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Voice AI</h4>
-        <p class="meta">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
-        <p class="desc">Likely refers to voice.ai — live voice transformation & cloning tools.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/voice-ai.html" aria-label="Voice AI details">View Details</a>
-          <a class="btn btn-visit" href="https://voice.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Voice AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Natural Reader</h4>
-        <p class="meta">Category: AI Voice (Voice Cloning / Text-to-Speech)</p>
-        <p class="desc">Simple, reliable TTS for reading documents aloud with multiple voices.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/natural-reader.html" aria-label="Natural Reader details">View Details</a>
-          <a class="btn btn-visit" href="https://www.naturalreaders.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Natural Reader">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Image Generator AI -->
-    <div class="grid-full"><h2>🎨 Image Generator AI</h2></div>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>ToToR AI</h4>
-        <p class="meta">Category: Image Generator AI</p>
-        <p class="desc">(Ambiguous name — keep for manual check) Totor-style image generator entry.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/totor-ai.html" aria-label="ToToR AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit ToToR AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Leonardo AI</h4>
-        <p class="meta">Category: Image Generator AI</p>
-        <p class="desc">AI image generation for creators, concept art and game assets.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/leonardo-ai.html" aria-label="Leonardo AI details">View Details</a>
-          <a class="btn btn-visit" href="https://leonardo.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Leonardo AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Ideogram</h4>
-        <p class="meta">Category: Image Generator AI</p>
-        <p class="desc">Generate creative and typographic AI art from text prompts.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/ideogram.html" aria-label="Ideogram details">View Details</a>
-          <a class="btn btn-visit" href="https://ideogram.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Ideogram">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Copy Rocket</h4>
-        <p class="meta">Category: Image Generator AI</p>
-        <p class="desc">(Ambiguous mapping — placeholder)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/copy-rocket.html" aria-label="Copy Rocket details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Copy Rocket">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Freepik AI</h4>
-        <p class="meta">Category: Image Generator AI</p>
-        <p class="desc">Freepik’s image tools for quick design assets & illustrations.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/freepik-ai.html" aria-label="Freepik AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.freepik.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Freepik AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Get IMG AI</h4>
-        <p class="meta">Category: Image Generator AI</p>
-        <p class="desc">Multiple services named similarly — kept as a placeholder entry.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/get-img-ai.html" aria-label="Get IMG AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Get IMG AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Banana AI</h4>
-        <p class="meta">Category: Image Generator AI</p>
-        <p class="desc">Banana.dev — run and deploy models, used for image/automation tasks.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/banana-ai.html" aria-label="Banana AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.banana.dev/" target="_blank" rel="noopener noreferrer" aria-label="Visit Banana AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Content Writing AI -->
-    <div class="grid-full"><h2>✍️ Content Writing AI</h2></div>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>HubSpot AI</h4>
-        <p class="meta">Category: Content Writing AI</p>
-        <p class="desc">HubSpot AI features for marketing copy, emails and content suggestions.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/hubspot-ai.html" aria-label="HubSpot AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.hubspot.com/products/ai" target="_blank" rel="noopener noreferrer" aria-label="Visit HubSpot AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>QuillBot</h4>
-        <p class="meta">Category: Content Writing AI</p>
-        <p class="desc">Paraphrasing, grammar, and writing improvements with AI suggestions.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/quillbot.html" aria-label="QuillBot details">View Details</a>
-          <a class="btn btn-visit" href="https://quillbot.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit QuillBot">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Textera AI</h4>
-        <p class="meta">Category: Content Writing AI</p>
-        <p class="desc">(Official site ambiguous — placeholder entry)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/textera-ai.html" aria-label="Textera AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Textera AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Typefully AI</h4>
-        <p class="meta">Category: Content Writing AI</p>
-        <p class="desc">Helper for social posts, threads, and copywriting workflows.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/typefully-ai.html" aria-label="Typefully AI details">View Details</a>
-          <a class="btn btn-visit" href="https://typefully.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Typefully AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>WriteCream</h4>
-        <p class="meta">Category: Content Writing AI</p>
-        <p class="desc">AI content generation for emails, blogs, and marketing content.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/writecream.html" aria-label="WriteCream details">View Details</a>
-          <a class="btn btn-visit" href="https://writecream.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit WriteCream">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Jasper SEO</h4>
-        <p class="meta">Category: Content Writing AI</p>
-        <p class="desc">SEO-focused writing assistant for scaling content production.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/jasper-seo.html" aria-label="Jasper SEO details">View Details</a>
-          <a class="btn btn-visit" href="https://www.jasper.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Jasper SEO">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Website Builder AI -->
-    <div class="grid-full"><h2>🌐 Website Builder AI</h2></div>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Webzy AI</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">(Ambiguous official site — placeholder entry for your pages)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/webzy-ai.html" aria-label="Webzy AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Webzy AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>FoundaWeb</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">(Ambiguous mapping — preserved as your source requested)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/foundaweb.html" aria-label="FoundaWeb details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit FoundaWeb">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Varnz AI</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">(Site unclear — kept as page link for your local pages)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/varnz-ai.html" aria-label="Varnz AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Varnz AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>HubSpot</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">Build and host responsive websites with HubSpot’s marketing automation.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/hubspot.html" aria-label="HubSpot details">View Details</a>
-          <a class="btn btn-visit" href="https://www.hubspot.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit HubSpot">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>WriteCream AI</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">Landing pages & simple sites using WriteCream’s AI features.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/writecream-ai.html" aria-label="WriteCream AI details">View Details</a>
-          <a class="btn btn-visit" href="https://writecream.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit WriteCream AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>GiviAI Free AI</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">(Ambiguous — kept for your verification).</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/giviai-free-ai.html" aria-label="GiviAI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit GiviAI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Venturz AI</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">(Ambiguous entry — preserved)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/venturz-ai.html" aria-label="Venturz AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Venturz AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>8b AI</h4>
-        <p class="meta">Category: Website Builder AI</p>
-        <p class="desc">Free AI website builder to create responsive sites quickly.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/8b-ai.html" aria-label="8b AI details">View Details</a>
-          <a class="btn btn-visit" href="https://8b.com/ai-website-builder.html" target="_blank" rel="noopener noreferrer" aria-label="Visit 8b AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Top AI PDF Editing Tools -->
-    <div class="grid-full"><h2>📄 Top AI PDF Editing Tools</h2></div>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Adobe Acrobat AI Assistant</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">Use AI to summarize, rewrite and search PDFs within Adobe Acrobat.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/adobe-acrobat-ai-assistant.html" aria-label="Adobe Acrobat AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.adobe.com/acrobat.html" target="_blank" rel="noopener noreferrer" aria-label="Visit Adobe Acrobat">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>SmallPDF</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">AI-enhanced PDF tools to edit, compress and convert documents.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/smallpdf.html" aria-label="SmallPDF details">View Details</a>
-          <a class="btn btn-visit" href="https://smallpdf.com" target="_blank" rel="noopener noreferrer" aria-label="Visit SmallPDF">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>PDF.ai</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">Chat with your PDF to extract, summarize or explain documents.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/pdfai.html" aria-label="PDF.ai details">View Details</a>
-          <a class="btn btn-visit" href="https://pdf.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit PDF.ai">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>ChatPDF</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">AI reader that answers questions from within your PDFs.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/chatpdf.html" aria-label="ChatPDF details">View Details</a>
-          <a class="btn btn-visit" href="https://chatpdf.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit ChatPDF">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>UPDF.ai</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">UPDF — AI features to edit and manage PDF content.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/updfai.html" aria-label="UPDF.ai details">View Details</a>
-          <a class="btn btn-visit" href="https://www.updf.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit UPDF.ai">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>LightPDF</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">Lightweight, web-based PDF editor with AI features.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/lightpdf.html" aria-label="LightPDF details">View Details</a>
-          <a class="btn btn-visit" href="https://lightpdf.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit LightPDF">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Sider AI</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">(Ambiguous — placeholder entry)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/sider-ai.html" aria-label="Sider AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit Sider AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Humata AI</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">AI assistant to query and summarize documents.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/humata-ai.html" aria-label="Humata AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.humata.ai/" target="_blank" rel="noopener noreferrer" aria-label="Visit Humata AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>DocuAsk AI</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">(Ambiguous — preserved as your original entry)</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/docuask-ai.html" aria-label="DocuAsk AI details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit DocuAsk AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Foxit PDF</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">Foxit’s PDF solutions with AI features for editing & collaboration.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/foxit-pdf.html" aria-label="Foxit PDF details">View Details</a>
-          <a class="btn btn-visit" href="https://www.foxit.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Foxit PDF">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Sejda.com</h4>
-        <p class="meta">Category: Top AI PDF Editing Tools</p>
-        <p class="desc">Online PDF toolkit with many editing features and automation.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/sejdacom.html" aria-label="Sejda details">View Details</a>
-          <a class="btn btn-visit" href="https://www.sejda.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Sejda">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Main / Top Trending AI -->
-    <div class="grid-full"><h2>⭐ Main / Top Trending AI (For All Features)</h2></div>
-
-    <article class="ai-item highlight">
-      <div class="ai-card">
-        <h4>ChatGPT</h4>
-        <p class="meta">Category: Main / Top Trending AI (For All Features)</p>
-        <p class="desc">OpenAI’s advanced conversational AI transforming the way humans interact with technology.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/chatgpt.html" aria-label="ChatGPT details">View Details</a>
-          <a class="btn btn-visit" href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit ChatGPT">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Gemini</h4>
-        <p class="meta">Category: Main / Top Trending AI (For All Features)</p>
-        <p class="desc">Google’s powerful multimodal AI that integrates text, images, and reasoning seamlessly.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/gemini.html" aria-label="Gemini details">View Details</a>
-          <a class="btn btn-visit" href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Gemini">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Claude AI</h4>
-        <p class="meta">Category: Main / Top Trending AI (For All Features)</p>
-        <p class="desc">Anthropic’s AI assistant built for safety, reasoning, and deep knowledge understanding.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/claude-ai.html" aria-label="Claude AI details">View Details</a>
-          <a class="btn btn-visit" href="https://www.anthropic.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Claude AI">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>AI Studio</h4>
-        <p class="meta">Category: Main / Top Trending AI (For All Features)</p>
-        <p class="desc">Create and customize your own AI projects using AI Studio-style platforms (placeholder link).</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/ai-studio.html" aria-label="AI Studio details">View Details</a>
-          <a class="btn btn-visit" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visit AI Studio">Visit</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="ai-item">
-      <div class="ai-card">
-        <h4>Banana</h4>
-        <p class="meta">Category: Main / Top Trending AI (For All Features)</p>
-        <p class="desc">Banana.dev — infrastructure & model hosting used for many AI tasks and experiments.</p>
-        <div class="card-actions">
-          <a class="btn btn-sm" href="pages/banana.html" aria-label="Banana details">View Details</a>
-          <a class="btn btn-visit" href="https://www.banana.dev/" target="_blank" rel="noopener noreferrer" aria-label="Visit Banana">Visit</a>
-        </div>
-      </div>
-    </article>
-
-  </div>
-  <!-- .tools-grid -->
 </section>
+    <!-- Categories Section -->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>AI Tool Categories</h2>
+                <p>Browse AI tools by category to find exactly what you need for your projects and workflows.</p>
+            </div>
 
-  <div class="info-card">
-    <h4>Why Nova AI?</h4>
-    <p class="ai-desc">
-      Nova AI is a comprehensive AI tools directory and research hub
-      designed to simplify the discovery, exploration, and evaluation of AI
-      solutions. It serves as a one-stop platform for creators, developers,
-      and tech enthusiasts to stay updated with the latest AI tools without
-      navigating through multiple websites.
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h4>Natural Language</h4>
+                        <p>Text generation, translation, sentiment analysis</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h4>Computer Vision</h4>
+                        <p>Image recognition, object detection, OCR</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h4>Audio AI</h4>
+                        <p>Speech recognition, music generation, voice cloning</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>AI Development</h4>
+                        <p>ML frameworks, model training, deployment tools</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h4>Video AI</h4>
+                        <p>Video generation, editing, deepfake detection</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4>Automation</h4>
+                        <p>Workflow automation, RPA, process optimization</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Generative AI</h4>
+                        <p>GANs, creative AI, content generation</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="category-item">
+                        <div class="category-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>AI Security</h4>
+                        <p>Threat detection, fraud prevention, cybersecurity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="footer-logo">
+                        <div class="logo">N</div>
+                        <div class="footer-logo-text">Nova-AI</div>
+                    </div>
+                    <p class="footer-tagline">AI Tool Directory Hub - Your gateway to the world of artificial
+                        intelligence tools and solutions.</p>
+
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> novaai1410@gmail.com</p>
+                        <p><i class="fas fa-building"></i> Made By: Rizwan Shaikh</p>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/Nova-AI/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Pages</h5>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="tools.html">AI Tools</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="Terms.html">Terms & Condition</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Popular Categories</h5>
+                        <ul>
+                            <li><a href="tools.html?category=Gaming%20AI">Gaming AI</a></li>
+                            <li><a href="tools.html?category=Content%20Creation">Content Creation</a></li>
+                            <li><a href="tools.html?category=Image%20%26%20Design">Image Generation</a></li>
+                            <li><a href="tools.html?category=Video%20Creation">Video Generation & Editing AI</a></li>
+                            <li><a href="tools.html?category=Cyber%20Security%20AI">Cyber Security AI</a></li>
+                            <li><a href="tools.html?category=Coding%20%26%20Development">Coding & Development</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-links newsletter-box">
+                        <h5>Newsletter</h5>
+                        <p class="text-muted mb-3">Subscribe to get updates on new AI tools and features.</p>
+
+                         <form action="https://formspree.io/f/xeoywqel" method="POST">
+                             <!-- Honeypot spam protection -->
+                             <input type="text" name="_gotcha" style="display:none">
+                            <div class="newsletter-input">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <button type="submit" class="btn btn-neon">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+    <p>
+        Copyright © 2025 <a href="#">Nova AI Tool Directory Hub</a>.
+        All rights reserved. | Designed with
+        <i class="fas fa-heart" style="color:#ff6b8b;"></i>
+        by Rizwan Shaikh
     </p>
-    <ul>
-      <li>
-        <strong>Curated Tool Pages:</strong> Each AI tool has a dedicated
-        page with detailed descriptions, key features, practical use-cases,
-        and insights to help you understand its benefits quickly.
-        <a href="/explore.html">Visit Tool Pages</a>
-      </li>
-      <li>
-        <strong>Quick External Links:</strong> Direct links to official AI
-        tool websites are provided so you can explore them in-depth.
-        <a href="/explore.html">Explore AI Tools</a>
-      </li>
-      <li>
-        <strong>Responsive Design:</strong> Fully responsive layout,
-        optimized for all devices. Nova AI supports light and dark mode for
-        comfortable browsing. Navigation is intuitive to help you find what
-        you need fast.
-      </li>
-      <li>
-        <strong>Dedicated Pages for Support & Info:</strong>
-        Easily access important pages for a complete experience:
-        <ul>
-          <li><a href="/about.html">About Page</a></li>
-          <li><a href="/contact.html">Contact Page</a></li>
-          <li><a href="/support.html">Support Page</a></li>
-          <li><a href="/disclaimer.html">Disclaimer</a></li>
-          <li><a href="/terms.html">Terms & Conditions</a></li>
-        </ul>
-      </li>
-    </ul>
-    <p class="ai-desc">
-      Nova AI is built for creators who want speed, reliability, and clarity
-      when exploring AI tools. No unnecessary sign-ups or complicated menus
-      — just the information you need, all in one place.
+
+    <!-- Last Updated Info -->
+    <p class="small mt-1" style="color:#ffffff; opacity:0.85;">
+        Updated on 27 December 2025
     </p>
-  </div>
+</div>
 
-  <footer class="nova-footer" style="background-color: #071126;">
-    <div class="nova-footer-container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>Nova AI</h5>
-          <p>
-            One place to discover and compare AI tools — curated pages, quick
-            links, and deep details.
-          </p>
         </div>
+    </footer>
 
-        <div class="col-md-4">
-          <h6>Quick Links</h6>
-          <ul class="list-unstyled">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/terms.html">Terms & Conditions</a></li>
-            <li><a href="/disclaimer.html">Disclaimer</a></li>
-          </ul>
-        </div>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-        <div class="col-md-4">
-          <h6>Contact</h6>
-          <p>Email: Rizwanshaikh1410@gmail.com</p>
-          <p>Instagram: @officialrizwanshaikh59</p>
-        </div>
-      </div>
-
-      <hr class="nova-footer-line" />
-
-      <div class="text-center nova-footer-bottom">
-        © 2025 Nova AI · Made with this website by Rizwan Shaikh · All rights
-        reserved
-      </div>
-    </div>
-  </footer>
-
-    <!-- =====================================================
-       JS FILES
-  ====================================================== -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/script.js"></script>
-  <script src="/js/site-search.js"></script>
-  <script src="/js/slider.js"></script>
-
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

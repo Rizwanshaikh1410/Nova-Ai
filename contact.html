@@ -1,303 +1,692 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Contact - Nova AI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Nova-AI - AI Tool Directory Hub</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet">
-  <!-- Favicon icons -->
+    <!-- ======================= FAVICON START ======================= -->
 
-  <!-- ✅ Favicon -->
-  <link rel="icon" href="/assets/Fav-Logo.png" type="image/png" />
-  <!-- Favicon Icons -->
-  <!-- Standard Favicon -->
-  <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico" />
+   <link rel="icon" href="assets/favicon_io/favicon.ico" type="image/png" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon_io/android-chrome-512x512.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/android-chrome-192x192.png" />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
 
-  <!-- PNG Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png" />
+    <!-- ======================= FAVICON END ========================= -->
 
-  <!-- Apple Touch Icon (for iOS) -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
 
-  <!-- Android Chrome Icon -->
-  <link rel="manifest" href="/assets/favicon_io/site.webmanifest" />
+    <!-- nova meta tags start here -->
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Get in touch with the Nova-AI team for support, partnership, listing submissions, advertising, or AI tool inquiries. We respond quickly to all messages related to AI tools and platform assistance.">
 
-  <!-- Safari Pinned Tab -->
-  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="Nova-AI contact, contact AI tool directory, AI tools support, AI partnership, submit AI tool, list your AI tool, Nova-AI help, AI collaboration, AI listing contact">
 
+    <!-- Indexing -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-  <meta name="description"
-    content="Nova AI is your all-in-one platform to discover, compare, and use top AI tools like ChatGPT, Midjourney, Gemini, and more — all in one place.">
+    <!-- Language -->
+    <meta name="language" content="en">
+    <meta name="content-language" content="en-us">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+    <!-- Topic / Category -->
+    <meta name="subject" content="Contact Nova-AI – AI Tool Directory Support">
+    <meta name="classification" content="AI Tools Support, Directory Contact Page">
+    <meta name="page-type" content="Contact Page">
+    <meta name="page-topic" content="Support, Inquiry, Communication">
+    <meta name="intent" content="Customer Support & Communication">
 
-  <!-- Seo Start  -->
-  <meta name="description"
-    content="Nova AI is your one-stop AI tool discovery platform. Explore 5000+ AI tools for content writing, video editing, coding, image generation, chatbots, productivity, and more. Find the best free and paid AI tools easily in one place." />
+    <!-- Audience -->
+    <meta name="audience" content="Developers, Businesses, Creators, Marketers, Students, AI Users">
+    <meta name="target" content="Individuals seeking contact or support regarding AI tools">
 
-  <meta name="keywords"
-    content="AI tools, artificial intelligence tools, best AI websites, AI tools for content writing, AI video editing, AI image generator, AI chatbot, free AI software, nova ai, novaai14.netlify.app, AI technology 2025, AI productivity, AI business tools, AI coding tools, AI image editing, AI video tools, top AI platforms" />
+    <!-- Social Sharing: OG Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nova-AI">
+    <meta property="og:description"
+        content="Contact Nova-AI for listing requests, collaborations, advertising, tool submissions or any AI tool-related inquiries.">
+    <meta property="og:image" content="https://novaai14.netlify.app/contact-og.jpg">
+    <meta property="og:locale" content="en_US">
 
-  <meta name="author" content="Rizwan Shaikh" />
-  <meta name="robots" content="index, follow" />
-  <meta name="language" content="English" />
-  <meta name="distribution" content="global" />
-  <meta name="rating" content="general" />
-  <meta name="revisit-after" content="7 days" />
-<meta name="keywords" content="AI tools directory, Best AI tools 2025, New AI tools list, Top free AI tools, AI tools for productivity, AI tools for business, AI tools for students, AI tools for content creators, AI tools for developers, AI tools website, Latest AI tools list, AI tools for startups, Free AI software tools, AI tools for marketing, Best AI tools for work, Trending AI tools today, AI tools comparison, AI tools catalog, AI tools hub, AI tools finder, Best AI writing tools, Free AI content tools, AI email writing tools, AI blog writing tools, AI content generator list, Free AI image generator tools list, AI photo editor tools, AI art generator tools, AI logo maker free tools, Free AI video generator tools, AI video editing tools list, AI to create YouTube videos, AI avatar video tools, AI task tools, Free AI productivity apps, AI tools for daily work, Best AI tools for business growth, AI customer support tools, Marketing automation AI tools, AI coding tools, Free AI code generator, AI debugging tools, AI tools starting with A, Best AI tools for small shops, Hidden AI tools list 2025, Newly launched AI tools daily list, AI tools with free credits, AI tools for beginners 2025, AI tools full list alphabetical, AI tools directory India, AI tools for Hindi users, AI tools not on Google, Which AI tools are best for students, Best free AI tools for YouTubers, Best AI tools for small businesses, New AI tools launched in November 2025, Best AI tools for editing photos free">
+    <!-- Twitter Sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description"
+        content="Need help or want to list your AI tool? Contact Nova-AI for support, partnership, or submissions.">
+    <meta name="twitter:image" content="https://novaai14.netlify.app/contact-og.jpg">
 
-  <!-- ✅ Canonical URL -->
-  <link rel="canonical" href="https://novaai14.netlify.app/" />
+    <!-- Crawl Frequency -->
+    <meta name="revisit-after" content="7 days">
 
-  <!-- ✅ Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://novaai14.netlify.app/" />
-  <meta property="og:title" content="Nova AI - All Your AI Tools in One Place" />
-  <meta property="og:description"
-    content="Discover and explore all AI tools in one platform — from video editing to writing, coding, and image generation. Nova AI helps you find the right tool instantly." />
-  <meta property="og:image" content="https://novaai14.netlify.app/assets/preview-image.jpg" />
-  <meta property="og:site_name" content="Nova AI" />
+    <!-- Mobile Optimization -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true">
 
-  <!-- ✅ Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Nova AI - All Your AI Tools in One Place" />
-  <meta name="twitter:description"
-    content="Find the best AI tools instantly. Nova AI curates the top platforms for content creation, video editing, coding, and productivity." />
-  <meta name="twitter:image" content="https://novaai14.netlify.app/assets/preview-image.jpg" />
-  <meta name="twitter:site" content="@novaai" />
+    <!-- Technical Metadata -->
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="coverage" content="Worldwide">
+    <meta name="application-name" content="Nova-AI Platform">
 
-  <!-- ✅ Structured Data (Schema JSON-LD for Google Rich Results) -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Nova AI",
-  "url": "https://novaai14.netlify.app/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://novaai14.netlify.app/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "description": "Nova AI is a curated platform listing the best AI tools for writing, editing, coding, productivity, and more.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Nova AI",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://novaai14.netlify.app/assets/logo.png"
-    }
-  }
-}
-</script>
+    <!-- Performance / Browser Metadata -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+    <meta http-equiv="Expires" content="never">
 
-  <!-- ✅ Extra SEO Enhancements -->
-  <meta name="theme-color" content="#0f172a" />
-  <meta name="application-name" content="Nova AI" />
-  <meta name="apple-mobile-web-app-title" content="Nova AI" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Extended Semantic SEO -->
+    <meta name="description:extended"
+        content="Reach the Nova-AI support team for questions about AI tools, tool submissions, directory management, advertiser inquiries, and official communication.">
+    <meta name="contact-purpose" content="Support, Tool Submission, Partnership, Inquiry">
+    <meta name="contact-type" content="Email and Form Support">
+    <!-- nova meta tags end here -->
 
+    <!-- Google Tag Manager Analytics Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WD6BK7DZHY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  <!-- Seo End -->
+        gtag('config', 'G-WD6BK7DZHY');
+    </script>
+    <!-- End Google Tag Manager Analytics Code -->
 
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5WRQ4H9L');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Googlr Tag Manager Analytics Code -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-53D3J38C');</script>
+    <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager Analytics Code -->
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-    <div class="container site-container">
-      <a class="navbar-brand d-flex align-items-center gap-2" href="/index.html">
-        <img src="/assets/logo.svg" alt="Nova AI Logo" class="logo-rotate">
-        <div>
-          <div style="font-weight:700">Nova AI</div>
-          <small style="color:var(--muted)">Discover AI tools in one place</small>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53D3J38C" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Animated Background Elements -->
+    <div class="bg-animation" id="bg-animation"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo">N</div>
+                <a class="navbar-brand" href="#">Nova-AI</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a class="btn btn-neon" href="categories.html">Tool Category</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navCollapse">
-        <!-- <form class="d-flex ms-3 my-2 my-lg-0" role="search" onsubmit="return false;">
-        <input id="siteSearch" class="form-control me-2" type="search" placeholder="Search tools, e.g., Kapwing" aria-label="Search">
-        <select id="filterCategory" class="form-select me-2">
-          <option value="">All Categories</option>
-          <option value="Top Video Editing AI">Video Editing</option>
-          <option value="AI Voice (Voice Cloning / Text-to-Speech)">Voice</option>
-          <option value="Image Generator AI">Image</option>
-          <option value="Content Writing AI">Writing</option>
-          <option value="Website Builder AI">Website Builder</option>
-          <option value="Top AI PDF Editing Tools">PDF Tools</option>
-          <option value="Main / Top Trending AI (For All Features)">Top AI</option>
-        </select>
-        <button class="btn visit-btn" id="searchBtn" type="button">Search</button>
-      </form> -->
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/novaadvance.html">All Tools</a></li>
-          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="/support.html">Support</a></li>
-          <li class="nav-item"><a class="nav-link theme-toggle" id="themeToggle" href="javascript:void(0)">☀️</a></li>
-        </ul>
-      </div>
+    </nav>
+
+
+    <main>
+        <!-- Contact Hero Section -->
+        <section class="contact-hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h1 class="display-4 fw-bold mb-4 animate__animated animate__fadeInUp">
+                            Get in <span class="gradient-text">Touch</span>
+                        </h1>
+                        <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s">
+                            Have questions about AI tools? Need assistance? We're here to help! Reach out to us and
+                            we'll get back to you as soon as possible.
+                        </p>
+                        <div
+                            class="d-flex justify-content-center gap-3 animate__animated animate__fadeInUp animate__delay-2s">
+                            <div class="contact-stat">
+                                <i class="fas fa-clock"></i>
+                                <span>Response Time: <strong>24 hours</strong></span>
+                            </div>
+                            <div class="contact-stat">
+                                <i class="fas fa-headset"></i>
+                                <span>Support: <strong>24/7 Available</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Content Section -->
+        <section class="contact-content py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <!-- Contact Form -->
+                    <div class="col-lg-7">
+                        <div class="contact-form-card card">
+                            <div class="card-body">
+                                <h3 class="card-title mb-4">
+                                    <i class="fas fa-paper-plane me-2"></i>Send us a Message
+                                </h3>
+
+                                <!-- Success Message (Hidden by default) -->
+                                <div id="successMessage" class="alert alert-success alert-dismissible fade d-none"
+                                    role="alert">
+                                    <i class="fas fa-check-circle me-2"></i>
+                                    <strong>Message Sent Successfully!</strong> Thank you for contacting us. We'll get
+                                    back to you within 24 hours.
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <!-- Error Message (Hidden by default) -->
+                                <div id="errorMessage" class="alert alert-danger alert-dismissible fade d-none"
+                                    role="alert">
+                                    <i class="fas fa-exclamation-circle me-2"></i>
+                                    <strong>Error!</strong> <span id="errorText">There was an error sending your
+                                        message. Please try again.</span>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <form
+    id="contactForm"
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    novalidate
+>
+    <!-- Netlify required hidden input -->
+    <input type="hidden" name="form-name" value="contact">
+
+    <!-- Honeypot field (spam protection) -->
+    <p style="display:none;">
+        <label>
+            Don’t fill this out:
+            <input name="bot-field">
+        </label>
+    </p>
+
+    <div class="row g-3">
+        <!-- Full Name -->
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name" class="form-label">
+                    <i class="fas fa-user me-1"></i> Full Name *
+                </label>
+                <input type="text" class="form-control" id="name" name="name"
+                    placeholder="Enter your full name" required>
+                <div class="invalid-feedback">
+                    Please enter your full name.
+                </div>
+            </div>
+        </div>
+
+        <!-- Email Address -->
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email" class="form-label">
+                    <i class="fas fa-envelope me-1"></i> Email Address *
+                </label>
+                <input type="email" class="form-control" id="email" name="email"
+                    placeholder="Enter your email address" required>
+                <div class="invalid-feedback">
+                    Please enter a valid email address.
+                </div>
+            </div>
+        </div>
+
+        <!-- Subject -->
+        <div class="col-12">
+            <div class="form-group">
+                <label for="subject" class="form-label">
+                    <i class="fas fa-tag me-1"></i> Subject *
+                </label>
+                <select class="form-select" id="subject" name="subject" required>
+                    <option value="" selected disabled>Select a subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Partnership Opportunity">Partnership Opportunity</option>
+                    <option value="Feature Request">Feature Request</option>
+                    <option value="Bug Report">Bug Report</option>
+                    <option value="Other">Other</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a subject.
+                </div>
+            </div>
+        </div>
+
+        <!-- Custom Subject -->
+        <!-- <div class="col-12 d-none" id="customSubjectContainer">
+            <div class="form-group">
+                <label for="customSubject" class="form-label">
+                    <i class="fas fa-edit me-1"></i> Custom Subject *
+                </label>
+                <input type="text" class="form-control" id="customSubject"
+                    name="customSubject" placeholder="Enter your subject">
+                <div class="invalid-feedback">
+                    Please enter a subject.
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Message -->
+        <div class="col-12">
+            <div class="form-group">
+                <label for="message" class="form-label">
+                    <i class="fas fa-comment-dots me-1"></i> Your Message *
+                </label>
+                <textarea class="form-control" id="message" name="message" rows="6"
+                    placeholder="Tell us about your requirements, questions, or feedback..."
+                    required></textarea>
+                <div class="invalid-feedback">
+                    Please enter your message.
+                </div>
+                <div class="form-text">
+                    Please be as detailed as possible so we can help you better.
+                </div>
+            </div>
+        </div>
+
+        <!-- Privacy Checkbox (FIXED: name added) -->
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="privacyCheck"
+                    name="privacy" required>
+                <label class="form-check-label" for="privacyCheck">
+                    I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a>
+                    and allow Nova-AI to contact me via email.
+                </label>
+                <div class="invalid-feedback">
+                    You must agree before submitting.
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-12">
+            <button type="submit" class="btn btn-neon btn-lg w-100" id="submitBtn">
+                <span id="submitText">
+                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                </span>
+                <span id="loadingSpinner" class="d-none">
+                    <span class="spinner-border spinner-border-sm me-2" role="status"
+                        aria-hidden="true"></span>
+                    Sending...
+                </span>
+            </button>
+        </div>
     </div>
-  </nav>
+</form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="col-lg-5">
+                        <!-- Contact Info Card -->
+                        <div class="contact-info-card card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title mb-4">
+                                    <i class="fas fa-info-circle me-2"></i>Contact Information
+                                </h3>
+
+                                <div class="contact-info-list">
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Email Address</h5>
+                                            <p>novaai1410@gmail.com</p>
+                                            <small class="text-muted">Primary contact email</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-clock"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Response Time</h5>
+                                            <p>Within 24 hours</p>
+                                            <small class="text-muted">Typically respond within 12 hours</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-globe"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Website</h5>
+                                            <p>https://novaai14.netlify.app/</p>
+                                            <small class="text-muted">Visit our AI tools directory</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <div class="contact-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Location</h5>
+                                            <p>Made By: Rizwan Shaikh</p>
+                                            <small class="text-muted">AI Innovation Hub</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Card -->
+                        <div class="faq-card card">
+                            <div class="card-body">
+                                <h3 class="card-title mb-4">
+                                    <i class="fas fa-question-circle me-2"></i>Frequently Asked Questions
+                                </h3>
+
+                                <div class="accordion" id="faqAccordion">
+                                    <!-- FAQ 1 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq1">
+                                                How quickly will I receive a response?
+                                            </button>
+                                        </h2>
+                                        <div id="faq1" class="accordion-collapse collapse"
+                                            data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                We typically respond within 12-24 hours. You'll receive an automatic
+                                                confirmation email immediately after submitting your message.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- FAQ 2 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq2">
+                                                Do you provide technical support for AI tools?
+                                            </button>
+                                        </h2>
+                                        <div id="faq2" class="accordion-collapse collapse"
+                                            data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                We provide guidance on finding the right AI tools and general support
+                                                for our directory. For specific tool technical issues, we recommend
+                                                contacting the tool's official support.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- FAQ 3 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq3">
+                                                Can I suggest new AI tools to add?
+                                            </button>
+                                        </h2>
+                                        <div id="faq3" class="accordion-collapse collapse"
+                                            data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                Absolutely! We welcome suggestions for new AI tools. Please use the
+                                                "Feature Request" option in the subject dropdown when submitting your
+                                                message.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- FAQ 4 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq4">
+                                                Is there a mobile app available?
+                                            </button>
+                                        </h2>
+                                        <div id="faq4" class="accordion-collapse collapse"
+                                            data-bs-parent="#faqAccordion">
+                                            <div class="accordion-body">
+                                                Currently, we're a web-based platform optimized for mobile browsers. A
+                                                dedicated mobile app is in our development roadmap.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Contact Methods -->
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <div class="section-header text-center mb-5">
+                            <h2 class="display-6 fw-bold">Other Ways to Connect</h2>
+                            <p class="text-muted">Follow us on social media for updates and announcements</p>
+                        </div>
+
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="social-card card text-center h-100">
+                                    <div class="card-body">
+                                        <div class="social-icon twitter">
+                                            <i class="fab fa-twitter"></i>
+                                        </div>
+                                        <h5 class="mt-3">Twitter</h5>
+                                        <p class="text-muted small">Follow for AI news & updates</p>
+                                        <a href="#" class="btn btn-outline-neon btn-sm">Follow @Nova-AI</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                                <div class="social-card card text-center h-100">
+                                    <div class="card-body">
+                                        <div class="social-icon linkedin">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </div>
+                                        <h5 class="mt-3">LinkedIn</h5>
+                                        <p class="text-muted small">Professional network</p>
+                                        <a href="#" class="btn btn-outline-neon btn-sm">Connect with us</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                                <div class="social-card card text-center h-100">
+                                    <div class="card-body">
+                                        <div class="social-icon Instagram">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                        <h5 class="mt-3">Instagram</h5>
+                                        <p class="text-muted small">Follow us for the next update</p>
+                                        <a href="#" class="btn btn-outline-neon btn-sm">Follow @Nova-AI</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6">
+                                <div class="social-card card text-center h-100">
+                                    <div class="card-body">
+
+                                        <div class="social-icon facebook">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </div>
+
+                                        <h5 class="mt-3">Facebook</h5>
+                                        <p class="text-muted small">Stay updated with our latest posts</p>
+
+                                        <a href="#" class="btn btn-outline-neon btn-sm">
+                                            Visit Page
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
 
-  <!-- Contact Page -->
-  <div class="site-container center-content" style="padding-top:40px; max-width:900px; margin:auto;">
-    <div class="card-custom" style="padding:30px; box-shadow:0 8px 20px rgba(0,0,0,0.1); border-radius:12px;">
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="footer-logo">
+                        <div class="logo">N</div>
+                        <div class="footer-logo-text">Nova-AI</div>
+                    </div>
+                    <p class="footer-tagline">AI Tool Directory Hub - Your gateway to the world of artificial
+                        intelligence tools and solutions.</p>
 
-      <h1 style="text-align:center; color:#1a1a1a;">Contact Us</h1>
-      <p class="ai-desc" style="text-align:center; font-size:16px; color:var(--muted); margin-bottom:40px;">
-        Have questions, suggestions, or found an error? Reach out and let's make things better together.
-        We're here to help and value your feedback.
-      </p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> novaai1410@gmail.com</p>
+                        <p><i class="fas fa-building"></i> Made By: Rizwan Shaikh</p>
+                    </div>
 
-      <div class="row" style="display:flex; flex-wrap:wrap; gap:30px;">
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/Nova-AI/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
 
-        <!-- Contact Form -->
-        <div class="col-md-7" style="flex:1; min-width:280px;">
-          <form id="contactForm" style="display:flex; flex-direction:column; gap:20px;">
+                <div class="col-lg-2 col-md-4 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Pages</h5>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="tools.html">AI Tools</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="Terms.html">Terms & Condition</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="mb-3">
-              <label class="form-label">Full Name</label>
-              <input id="cf-name" class="form-control" placeholder="Your full name" required
-                style="padding:12px; border-radius:6px; border:1px solid #ccc;" />
+                <div class="col-lg-3 col-md-4 mb-5 mb-md-0">
+                    <div class="footer-links">
+                        <h5>Popular Categories</h5>
+                        <ul>
+                            <li><a href="tools.html?category=Gaming%20AI">Gaming AI</a></li>
+                            <li><a href="tools.html?category=Content%20Creation">Content Creation</a></li>
+                            <li><a href="tools.html?category=Image%20%26%20Design">Image Generation</a></li>
+                            <li><a href="tools.html?category=Video%20Creation">Video Generation & Editing AI</a></li>
+                            <li><a href="tools.html?category=Cyber%20Security%20AI">Cyber Security AI</a></li>
+                            <li><a href="tools.html?category=Coding%20%26%20Development">Coding & Development</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer-links newsletter-box">
+                        <h5>Newsletter</h5>
+                        <p class="text-muted mb-3">Subscribe to get updates on new AI tools and features.</p>
+
+                         <form action="https://formspree.io/f/xeoywqel" method="POST">
+                             <!-- Honeypot spam protection -->
+                             <input type="text" name="_gotcha" style="display:none">
+                            <div class="newsletter-input">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <button type="submit" class="btn btn-neon">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="mb-3">
-              <label class="form-label">Email Address</label>
-              <input id="cf-email" type="email" class="form-control" placeholder="you@example.com" required
-                style="padding:12px; border-radius:6px; border:1px solid #ccc;" />
-            </div>
+            <div class="copyright">
+    <p>
+        Copyright © 2025 <a href="#">Nova AI Tool Directory Hub</a>.
+        All rights reserved. | Designed with
+        <i class="fas fa-heart" style="color:#ff6b8b;"></i>
+        by Rizwan Shaikh
+    </p>
 
-            <div class="mb-3">
-              <label class="form-label">Message</label>
-              <textarea id="cf-message" class="form-control" rows="6" placeholder="Write your message here..." required
-                style="padding:12px; border-radius:6px; border:1px solid #ccc;"></textarea>
-            </div>
+    <!-- Last Updated Info -->
+    <p class="small mt-1" style="color:#ffffff; opacity:0.85;">
+        Updated on 27 December 2025
+    </p>
+</div>
 
-            <button class="visit-btn" id="cf-send" type="button"
-  style="
-    padding:12px 20px; 
-    border:none; 
-    border-radius:8px; 
-    background:linear-gradient(90deg,#ff6ec4,#7873f5); 
-    color:#fff; 
-    font-weight:600; 
-    cursor:pointer;
-    transition:0.3s ease;
-  ">
-  Send Message
-</button>
-
-<style>
-  /* Hover Effect */
-  .visit-btn:hover {
-    transform: scale(1.08);
-    filter: brightness(1.15);
-    box-shadow: 0 6px 18px rgba(255,110,196,0.45);
-  }
-
-  /* Click Effect */
-  .visit-btn:active {
-    transform: scale(0.95);
-  }
-</style>
-
-
-            <div id="cf-note" style="margin-top:12px; color:var(--muted); font-size:14px;"></div>
-          </form>
-
-          <!-- EmailJS Script -->
-          <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-          <script src="js/contact.js"></script>
         </div>
+    </footer>
 
-        <!-- Contact Details -->
-        <div class="col-md-5" style="flex:1; min-width:250px;">
-          <h5 style="color:#1a1a1a;">Get in Touch</h5>
-          <p style="margin:6px 0;"><strong>Email:</strong> <a href="mailto:Rizwanshaikh1410@gmail.com"
-              style="color:#555; text-decoration:none;">Rizwanshaikh1410@gmail.com</a></p>
-          <p style="margin:6px 0;"><strong>Instagram:</strong> <a
-              href="https://www.instagram.com/officialrizwanshaikh59" target="_blank"
-              style="color:#555; text-decoration:none;">@officialrizwanshaikh59</a></p>
-          <p style="margin:6px 0;"><strong>Creator:</strong> Rizwan Shaikh</p>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-          <h6 style="margin-top:20px;">Office Location</h6>
-          <p>Remote / India</p>
-
-          <h6 style="margin-top:20px;">Why Contact Us?</h6>
-          <p style="font-size:14px; color:#555;">
-            - Report any bugs or errors you encounter.<br>
-            - Suggest new AI tools or features.<br>
-            - Collaborate on AI-related projects.<br>
-            - Ask questions about using Nova AI efficiently.<br>
-          </p>
-
-          <h6 style="margin-top:20px;">Expected Response Time</h6>
-          <p style="font-size:14px; color:#555;">
-            We typically respond within 24–48 hours on weekdays. Your messages are important to us!
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="site-container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>Nova AI</h5>
-          <p>One place to discover and compare AI tools — curated pages, quick links, and deep details.</p>
-        </div>
-        <div class="col-md-4">
-          <h6>Quick Links</h6>
-          <ul class="list-unstyled">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/terms.html">Terms & Conditions</a></li>
-            <li><a href="/disclaimer.html">Disclaimer</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h6>Contact</h6>
-          <p>Email: Rizwanshaikh1410@gmail.com</p>
-          <p>Instagram: @officialrizwanshaikh59</p>
-        </div>
-      </div>
-      <hr>
-      <div class="text-center" style="font-size:13px;color:var(--muted)">© 2025 Nova AI — Made with ❤️ by Rizwan Shaikh. All rights reserved.</div>
-    </div>
-  </footer>
-
-  <!-- gtag body tag for my web -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/script.js"></script>
-  <!-- <script>
-document.getElementById('cf-send')?.addEventListener('click', function(){
-  const name = document.getElementById('cf-name').value.trim();
-  const email = document.getElementById('cf-email').value.trim();
-  const msg = document.getElementById('cf-message').value.trim();
-  if(!name||!email||!msg){ document.getElementById('cf-note').innerText='Please fill all fields.'; return; }
-  document.getElementById('cf-note').innerText='Thank you! Your message has been noted (demo).';
-  // In production: send to server or email service.
-});
-</script> -->
-  <script src="/js/site-search.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/contact2.js"></script>
 </body>
 
 </html>
